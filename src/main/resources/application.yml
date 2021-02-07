@@ -1,0 +1,53 @@
+
+spring:
+    datasource:
+        url: jdbc:mysql://127.0.0.1/cow?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: 123456
+
+    redis:
+      host: 127.0.0.1
+      port: 6379
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: create
+    jackson:
+      # 设置属性命名策略,对应jackson下PropertyNamingStrategy中的常量值，SNAKE_CASE-返回的json驼峰式转下划线，json body下划线传到后端自动转驼峰式
+      property-naming-strategy: SNAKE_CASE
+
+    flyway:
+      enabled: true
+      ## 编码格式，默认UTF-8
+      encoding: UTF-8
+      ## 迁移sql脚本文件存放路径，默认db/migration
+      locations: filesystem:db/migration
+      ## 迁移sql脚本文件名称的前缀，默认V
+      sqlMigrationPrefix: V
+      ## 迁移sql脚本文件名称的分隔符，默认2个下划线__
+      sqlMigrationSeparator: __
+      # 迁移sql脚本文件名称的后缀
+      sqlMigrationSuffixes: .sql
+      # 迁移时是否进行校验，默认true
+      validateOnMigrate: true
+      # 设置为true，当迁移发现数据库非空且存在没有元数据的表时，自动执行基准迁移，新建schema_version表
+      baselineOnMigrate: true
+      # postgres10没有引入这个不提示错误，postgres12没有引入会报错
+      schemas: cow
+
+  # 此处配置在启动主程序时加载
+
+
+
+logging:
+#  file: sell.log
+  level:
+    root: info
+
+  jackson:
+  #  path: /var/log/tomcat/
+  pattern:
+    console: "%d - %msg%n"
+    default-property-inclusion: non_null
+
