@@ -4,11 +4,6 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-/**
- * @author napuping
- * @date 2020-11-25 下午1:44
- * @description
- */
 public class ClUtil {
 
     public static boolean isEmpty(Collection<?> collection) {

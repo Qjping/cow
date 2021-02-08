@@ -3,6 +3,7 @@ package cow.interfaces;
 import cow.applications.service.CaseDetailService;
 import cow.infrastructures.jooq.tables.CaseDetail;
 import cow.infrastructures.struct.ido.ApiResultIDO;
+import cow.infrastructures.struct.ido.CaseDetailAddIDO;
 import cow.infrastructures.struct.ido.CaseQueryIDO;
 import cow.infrastructures.struct.ido.PageResultIDO;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,5 +23,19 @@ public class CaseDetailCrontroller {
     public ApiResultIDO<PageResultIDO<CaseQueryIDO>> seach(CaseQueryIDO caseQueryIDO){
         return ApiResultIDO.success(caseDetailService.searchCaseDetailList(caseQueryIDO));
     }
+//    @GetMapping("add")
+//    public ApiResultIDO<PageResultIDO<Void>> add(CaseDetailAddIDO caseDetailAddIDO){
+//        caseDetailService.addCase(caseDetailAddIDO);
+//        return ApiResultIDO.success(caseDetailService.searchCaseDetailList(caseQueryIDO));
+//    }
+
+
+//    @GetMapping("excute")
+//    public ApiResultIDO<PageResultIDO<Void>> excute(CaseDetailAddIDO caseDetailAddIDO){
+//        caseDetailService.addCase(caseDetailAddIDO);
+//        return ApiResultIDO.success(caseDetailService.searchCaseDetailList(caseQueryIDO));
+//    }
+
+
 }
 

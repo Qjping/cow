@@ -1,7 +1,8 @@
 package cow.infrastructures.util;
 
 /**
- * @author napuping
+ * @author qiu
+ *
  * @date 2020-11-23 下午2:51
  * @description
  */
