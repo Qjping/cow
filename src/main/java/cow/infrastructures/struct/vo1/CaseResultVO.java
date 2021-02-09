@@ -9,7 +9,7 @@ import java.sql.*;
  * author name: qiujingping
  * create time: 2021-02-07 15:10:31
  */
-public class ResultVO {
+public class CaseResultVO {
 
     private Integer id;
     private Integer caseGroupId;

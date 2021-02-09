@@ -28,7 +28,7 @@ public class MysqlEntityUtil {
     private static final String NAME = "root";
     private static final String PASS = "123456";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private String packageOutPath = "cow.infrastructures.struct.vo1";// 指定实体生成所在包的路径
+    private String packageOutPath = "cow.infrastructures.struct.vo11";// 指定实体生成所在包的路径
     private String authorName = "qiujingping";// 作者名字
     private String[] generateTables = null;//指定需要生成的表的表名，全部生成设置为null
 
