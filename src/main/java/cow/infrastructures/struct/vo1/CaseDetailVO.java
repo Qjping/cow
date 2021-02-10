@@ -2,7 +2,6 @@ package cow.infrastructures.struct.vo1;
 
 import java.time.LocalDateTime;
 import java.time.LocalDate;
-import java.sql.*;
 
 /**
  * table name: case_detail
@@ -20,7 +19,7 @@ public class CaseDetailVO {
     private String assertions;
     private String extract;
     private String description;
-    private String groupId;
+    private Integer groupId;
     private Integer sort;
     private Integer deleteFlag;
     private LocalDate recordDate;
@@ -101,11 +100,11 @@ public class CaseDetailVO {
         return description;
     }
 
-    public void setGroupId(String groupId){
+    public void setGroupId(Integer groupId){
         this.groupId=groupId;
     }
 
-    public String getGroupId(){
+    public Integer getGroupId(){
         return groupId;
     }
 

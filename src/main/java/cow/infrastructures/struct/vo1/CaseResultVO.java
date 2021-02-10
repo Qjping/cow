@@ -2,7 +2,6 @@ package cow.infrastructures.struct.vo1;
 
 import java.time.LocalDateTime;
 import java.time.LocalDate;
-import java.sql.*;
 
 /**
  * table name: case_result
@@ -11,7 +10,7 @@ import java.sql.*;
  */
 public class CaseResultVO {
 
-    private Integer id;
+    private String id;
     private Integer caseGroupId;
     private Integer caseId;
     private String url;
@@ -19,22 +18,22 @@ public class CaseResultVO {
     private String header;
     private String method;
     private String data;
-    private Integer responceResult;
-    private Integer assertResult;
-    private Integer extractResult;
+    private String  responceResult;
+    private String  assertResult;
+    private String extractResult;
     private String userDefineParameters;
-    private Integer deleteFlag;
+    private String deleteFlag;
     private LocalDate recordDate;
     private LocalDateTime createdAt;
     private String createdBy;
     private LocalDateTime updatedAt;
     private String updatedBy;
 
-    public void setId(Integer id){
+    public void setId(String id){
         this.id=id;
     }
 
-    public Integer getId(){
+    public String getId(){
         return id;
     }
 
@@ -94,27 +93,27 @@ public class CaseResultVO {
         return data;
     }
 
-    public void setResponceResult(Integer responceResult){
+    public void setResponceResult(String responceResult){
         this.responceResult=responceResult;
     }
 
-    public Integer getResponceResult(){
+    public String getResponceResult(){
         return responceResult;
     }
 
-    public void setAssertResult(Integer assertResult){
+    public void setAssertResult(String assertResult){
         this.assertResult=assertResult;
     }
 
-    public Integer getAssertResult(){
+    public String getAssertResult(){
         return assertResult;
     }
 
-    public void setExtractResult(Integer extractResult){
+    public void setExtractResult(String extractResult){
         this.extractResult=extractResult;
     }
 
-    public Integer getExtractResult(){
+    public String getExtractResult(){
         return extractResult;
     }
 
@@ -126,11 +125,11 @@ public class CaseResultVO {
         return userDefineParameters;
     }
 
-    public void setDeleteFlag(Integer deleteFlag){
+    public void setDeleteFlag(String deleteFlag){
         this.deleteFlag=deleteFlag;
     }
 
-    public Integer getDeleteFlag(){
+    public String getDeleteFlag(){
         return deleteFlag;
     }
 

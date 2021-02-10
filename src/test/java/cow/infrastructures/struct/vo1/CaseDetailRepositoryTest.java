@@ -31,7 +31,7 @@ public class CaseDetailRepositoryTest  {
     @Test
     void addCase() {
         CaseDetailAddVO caseDetailAddVO = new CaseDetailAddVO();
-        caseDetailAddVO.setUrl("http;//www.baidu.com");
+        caseDetailAddVO.setUrl("https://github.com/Qjping/Bear/blob/v1.0.0/src/main/java/testplatform/util/CaseExcuteUtil.java");
         caseDetailAddVO.setSort(2);
         List<CaseDetailAddVO> caseDetailAddVOList = new ArrayList<CaseDetailAddVO>();
 
