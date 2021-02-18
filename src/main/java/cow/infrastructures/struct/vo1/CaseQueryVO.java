@@ -4,7 +4,7 @@ public class CaseQueryVO{
 
     private Integer page = 1;
     private Integer limit = 10;
-    private String groupId;
+    private Integer groupId;
     private Integer id;
 
     public Integer getPage() {
@@ -23,11 +23,11 @@ public class CaseQueryVO{
         this.limit = limit;
     }
 
-    public String getGroupId() {
+    public Integer getGroupId() {
         return groupId;
     }
 
-    public void setGroupId(String groupId) {
+    public void setGroupId(Integer groupId) {
         this.groupId = groupId;
     }
 

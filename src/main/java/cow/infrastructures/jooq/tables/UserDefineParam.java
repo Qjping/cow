@@ -18,7 +18,7 @@ import org.jooq.ForeignKey;
 import org.jooq.Identity;
 import org.jooq.Name;
 import org.jooq.Record;
-import org.jooq.Row9;
+import org.jooq.Row11;
 import org.jooq.Schema;
 import org.jooq.Table;
 import org.jooq.TableField;
@@ -58,12 +58,22 @@ public class UserDefineParam extends TableImpl<UserDefineParamRecord> {
     /**
      * The column <code>cow.user_define_param.case_group_id</code>.
      */
-    public final TableField<UserDefineParamRecord, Integer> CASE_GROUP_ID = createField(DSL.name("case_group_id"), SQLDataType.INTEGER.nullable(false), this, "");
+    public final TableField<UserDefineParamRecord, Integer> CASE_GROUP_ID = createField(DSL.name("case_group_id"), SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>cow.user_define_param.user_define_parameters</code>.
+     * The column <code>cow.user_define_param.param_name</code>.
      */
-    public final TableField<UserDefineParamRecord, String> USER_DEFINE_PARAMETERS = createField(DSL.name("user_define_parameters"), SQLDataType.CLOB, this, "");
+    public final TableField<UserDefineParamRecord, String> PARAM_NAME = createField(DSL.name("param_name"), SQLDataType.VARCHAR(255), this, "");
+
+    /**
+     * The column <code>cow.user_define_param.param_value</code>.
+     */
+    public final TableField<UserDefineParamRecord, String> PARAM_VALUE = createField(DSL.name("param_value"), SQLDataType.VARCHAR(255), this, "");
+
+    /**
+     * The column <code>cow.user_define_param.type</code>. 类型，1是用户添加的，2是系统提取的
+     */
+    public final TableField<UserDefineParamRecord, Integer> TYPE = createField(DSL.name("type"), SQLDataType.INTEGER, this, "类型，1是用户添加的，2是系统提取的");
 
     /**
      * The column <code>cow.user_define_param.delete_flag</code>. 删除标志, 1未删除 0已删除
@@ -175,11 +185,11 @@ public class UserDefineParam extends TableImpl<UserDefineParamRecord> {
     }
 
     // -------------------------------------------------------------------------
-    // Row9 type methods
+    // Row11 type methods
     // -------------------------------------------------------------------------
 
     @Override
-    public Row9<Integer, Integer, String, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
-        return (Row9) super.fieldsRow();
+    public Row11<Integer, Integer, String, String, Integer, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
+        return (Row11) super.fieldsRow();
     }
 }

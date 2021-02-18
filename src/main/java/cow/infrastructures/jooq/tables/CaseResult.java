@@ -58,7 +58,7 @@ public class CaseResult extends TableImpl<CaseResultRecord> {
     /**
      * The column <code>cow.case_result.case_group_id</code>.
      */
-    public final TableField<CaseResultRecord, Integer> CASE_GROUP_ID = createField(DSL.name("case_group_id"), SQLDataType.INTEGER.nullable(false), this, "");
+    public final TableField<CaseResultRecord, Integer> CASE_GROUP_ID = createField(DSL.name("case_group_id"), SQLDataType.INTEGER, this, "");
 
     /**
      * The column <code>cow.case_result.case_id</code>.
@@ -91,19 +91,19 @@ public class CaseResult extends TableImpl<CaseResultRecord> {
     public final TableField<CaseResultRecord, String> DATA = createField(DSL.name("data"), SQLDataType.CLOB, this, "请求报文");
 
     /**
-     * The column <code>cow.case_result.responce_result</code>. 请求结果
+     * The column <code>cow.case_result.response_result</code>.
      */
-    public final TableField<CaseResultRecord, Integer> RESPONCE_RESULT = createField(DSL.name("responce_result"), SQLDataType.INTEGER.nullable(false), this, "请求结果");
+    public final TableField<CaseResultRecord, String> RESPONSE_RESULT = createField(DSL.name("response_result"), SQLDataType.CLOB, this, "");
 
     /**
      * The column <code>cow.case_result.assert_result</code>. 断言结果
      */
-    public final TableField<CaseResultRecord, Integer> ASSERT_RESULT = createField(DSL.name("assert_result"), SQLDataType.INTEGER.nullable(false), this, "断言结果");
+    public final TableField<CaseResultRecord, String> ASSERT_RESULT = createField(DSL.name("assert_result"), SQLDataType.VARCHAR(255), this, "断言结果");
 
     /**
      * The column <code>cow.case_result.extract_result</code>. 提取结果
      */
-    public final TableField<CaseResultRecord, Integer> EXTRACT_RESULT = createField(DSL.name("extract_result"), SQLDataType.INTEGER.nullable(false), this, "提取结果");
+    public final TableField<CaseResultRecord, String> EXTRACT_RESULT = createField(DSL.name("extract_result"), SQLDataType.VARCHAR(255), this, "提取结果");
 
     /**
      * The column <code>cow.case_result.user_define_parameters</code>.
@@ -224,7 +224,7 @@ public class CaseResult extends TableImpl<CaseResultRecord> {
     // -------------------------------------------------------------------------
 
     @Override
-    public Row18<Integer, Integer, Integer, String, String, String, String, String, Integer, Integer, Integer, String, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
+    public Row18<Integer, Integer, Integer, String, String, String, String, String, String, String, String, String, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
         return (Row18) super.fieldsRow();
     }
 }

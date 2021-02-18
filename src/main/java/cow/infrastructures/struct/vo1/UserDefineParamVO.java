@@ -1,18 +1,20 @@
 package cow.infrastructures.struct.vo1;
 
-import java.time.LocalDateTime;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  * table name: user_define_param
  * author name: qiujingping
- * create time: 2021-02-07 15:11:15
+ * create time: 2021-02-18 17:34:56
  */
-public class DefineParamVO {
+public class UserDefineParamVO {
 
     private Integer id;
     private Integer caseGroupId;
-    private String userDefineParameters;
+    private String paramName;
+    private String paramValue;
+    private Integer type;
     private Integer deleteFlag;
     private LocalDate recordDate;
     private LocalDateTime createdAt;
@@ -36,12 +38,28 @@ public class DefineParamVO {
         return caseGroupId;
     }
 
-    public void setUserDefineParameters(String userDefineParameters){
-        this.userDefineParameters=userDefineParameters;
+    public void setParamName(String paramName){
+        this.paramName=paramName;
     }
 
-    public String getUserDefineParameters(){
-        return userDefineParameters;
+    public String getParamName(){
+        return paramName;
+    }
+
+    public void setParamValue(String paramValue){
+        this.paramValue=paramValue;
+    }
+
+    public String getParamValue(){
+        return paramValue;
+    }
+
+    public void setType(Integer type){
+        this.type=type;
+    }
+
+    public Integer getType(){
+        return type;
     }
 
     public void setDeleteFlag(Integer deleteFlag){
@@ -97,7 +115,9 @@ public class DefineParamVO {
         return "DefineParamVO{" +
             "id=" + id +
             ", caseGroupId=" + caseGroupId +
-            ", userDefineParameters=" + userDefineParameters +
+            ", paramName='" + paramName + '\'' +
+            ", paramValue='" + paramValue + '\'' +
+            ", type=" + type +
             ", deleteFlag=" + deleteFlag +
             ", recordDate=" + recordDate +
             ", createdAt=" + createdAt +

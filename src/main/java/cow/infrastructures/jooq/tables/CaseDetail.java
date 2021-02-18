@@ -96,14 +96,14 @@ public class CaseDetail extends TableImpl<CaseDetailRecord> {
     public final TableField<CaseDetailRecord, String> DESCRIPTION = createField(DSL.name("description"), SQLDataType.VARCHAR(255), this, "描述");
 
     /**
-     * The column <code>cow.case_detail.group_id</code>. 用例组id
+     * The column <code>cow.case_detail.group_id</code>.
      */
-    public final TableField<CaseDetailRecord, String> GROUP_ID = createField(DSL.name("group_id"), SQLDataType.VARCHAR(32), this, "用例组id");
+    public final TableField<CaseDetailRecord, Integer> GROUP_ID = createField(DSL.name("group_id"), SQLDataType.INTEGER, this, "");
 
     /**
      * The column <code>cow.case_detail.sort</code>. 执行顺序
      */
-    public final TableField<CaseDetailRecord, Integer> SORT = createField(DSL.name("sort"), SQLDataType.INTEGER.nullable(false), this, "执行顺序");
+    public final TableField<CaseDetailRecord, Integer> SORT = createField(DSL.name("sort"), SQLDataType.INTEGER, this, "执行顺序");
 
     /**
      * The column <code>cow.case_detail.delete_flag</code>. 删除标志, 1未删除 0已删除
@@ -219,7 +219,7 @@ public class CaseDetail extends TableImpl<CaseDetailRecord> {
     // -------------------------------------------------------------------------
 
     @Override
-    public Row17<Integer, String, String, String, String, String, String, String, String, String, Integer, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
+    public Row17<Integer, String, String, String, String, String, String, String, String, Integer, Integer, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
         return (Row17) super.fieldsRow();
     }
 }

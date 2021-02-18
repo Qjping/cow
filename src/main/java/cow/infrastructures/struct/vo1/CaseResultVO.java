@@ -18,7 +18,7 @@ public class CaseResultVO {
     private String header;
     private String method;
     private String data;
-    private String  responceResult;
+    private String  responseResult;
     private String  assertResult;
     private String extractResult;
     private String userDefineParameters;
@@ -93,12 +93,12 @@ public class CaseResultVO {
         return data;
     }
 
-    public void setResponceResult(String responceResult){
-        this.responceResult=responceResult;
+    public void setResponseResult(String responseResult){
+        this.responseResult=responseResult;
     }
 
-    public String getResponceResult(){
-        return responceResult;
+    public String getResponseResult(){
+        return responseResult;
     }
 
     public void setAssertResult(String assertResult){
@@ -184,7 +184,7 @@ public class CaseResultVO {
             ", header='" + header + '\'' +
             ", method='" + method + '\'' +
             ", data='" + data + '\'' +
-            ", responceResult=" + responceResult +
+            ", responseResult=" + responseResult +
             ", assertResult=" + assertResult +
             ", extractResult=" + extractResult +
             ", userDefineParameters=" + userDefineParameters +

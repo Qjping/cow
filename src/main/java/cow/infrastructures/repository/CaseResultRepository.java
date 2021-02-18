@@ -23,12 +23,10 @@ public class CaseResultRepository {
         List<CaseResultRecord> recordList = new ArrayList<>();
         caseResultVOS.forEach(caseResultVO -> {
             recordList.add(create.newRecord(cs,caseResultVO));
-                }
-
+        }
         );
 
         create.batchInsert(recordList).execute();
-
 
     }
 }

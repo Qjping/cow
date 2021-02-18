@@ -4,6 +4,7 @@
 package cow.infrastructures.jooq;
 
 
+import cow.infrastructures.jooq.tables.CaseConfig;
 import cow.infrastructures.jooq.tables.CaseDetail;
 import cow.infrastructures.jooq.tables.CaseGroup;
 import cow.infrastructures.jooq.tables.CaseResult;
@@ -18,6 +19,11 @@ import cow.infrastructures.jooq.tables.UserDefineParam;
  */
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Tables {
+
+    /**
+     * The table <code>cow.case_config</code>.
+     */
+    public static final CaseConfig CASE_CONFIG = CaseConfig.CASE_CONFIG;
 
     /**
      * The table <code>cow.case_detail</code>.

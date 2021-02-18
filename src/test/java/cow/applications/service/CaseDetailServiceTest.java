@@ -14,6 +14,7 @@ class CaseDetailServiceTest {
     @Test
     public void excute(){
         CaseQueryIDO caseQueryIDO = new CaseQueryIDO();
+//        caseQueryIDO.setGroupId("1");
         caseDetailService.excute(caseQueryIDO);
     }
 

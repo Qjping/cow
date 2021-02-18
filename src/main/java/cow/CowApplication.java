@@ -16,10 +16,14 @@ public class CowApplication {
 //        Request.Builder builder = new Request.Builder();
 //        Request request = null;
 //
-//        Response execute = client.newCall(builder.url("https://www.baidu.com").get().build()).execute();
+//        Response execute = client.newCall(builder.url("https://www.baidu.com").get().build()) .execute();
 //        System.out.println(execute.body().string());
+        try {
+            SpringApplication.run(CowApplication.class, args);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
 
-        SpringApplication.run(CowApplication.class, args);
     }
 
 }

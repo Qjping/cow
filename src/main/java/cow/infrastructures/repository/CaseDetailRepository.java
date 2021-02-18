@@ -37,8 +37,9 @@ public class CaseDetailRepository {
         if (caseQueryVo.getId() != null) {
             condition.add(CASE_DETAIL.ID.eq(caseQueryVo.getId()));
         }
-        if (!StringUtils.isEmpty(caseQueryVo.getGroupId())) {
-            condition.add(CASE_DETAIL.GROUP_ID.like('%' + caseQueryVo.getGroupId() + '%'));
+        if (caseQueryVo.getGroupId() != null) {
+//            condition.add(CASE_DETAIL.GROUP_ID.like('%' + caseQueryVo.getGroupId().toString() + '%'));
+            condition.add(CASE_DETAIL.GROUP_ID.eq(caseQueryVo.getGroupId()));
         }
 
         return new PageResultVO<>(create.selectFrom(CASE_DETAIL)
@@ -53,8 +54,8 @@ public class CaseDetailRepository {
     }
 
 
-    public void addCase(CaseDetailAddVO caseAddVO) {
-        CaseDetailRecord newRecord = create.newRecord(CASE_DETAIL, caseAddVO);
+    public void addCase(CaseDetailAddVO caseDetailAddVO) {
+        CaseDetailRecord newRecord = create.newRecord(CASE_DETAIL, caseDetailAddVO);
         create.executeInsert(newRecord);
 
     }

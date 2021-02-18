@@ -4,6 +4,7 @@
 package cow.infrastructures.jooq;
 
 
+import cow.infrastructures.jooq.tables.CaseConfig;
 import cow.infrastructures.jooq.tables.CaseDetail;
 import cow.infrastructures.jooq.tables.CaseGroup;
 import cow.infrastructures.jooq.tables.CaseResult;
@@ -11,6 +12,7 @@ import cow.infrastructures.jooq.tables.FlywaySchemaHistory;
 import cow.infrastructures.jooq.tables.TestConfig;
 import cow.infrastructures.jooq.tables.UserAccount;
 import cow.infrastructures.jooq.tables.UserDefineParam;
+import cow.infrastructures.jooq.tables.records.CaseConfigRecord;
 import cow.infrastructures.jooq.tables.records.CaseDetailRecord;
 import cow.infrastructures.jooq.tables.records.CaseGroupRecord;
 import cow.infrastructures.jooq.tables.records.CaseResultRecord;
@@ -36,6 +38,7 @@ public class Keys {
     // UNIQUE and PRIMARY KEY definitions
     // -------------------------------------------------------------------------
 
+    public static final UniqueKey<CaseConfigRecord> KEY_CASE_CONFIG_PRIMARY = Internal.createUniqueKey(CaseConfig.CASE_CONFIG, DSL.name("KEY_case_config_PRIMARY"), new TableField[] { CaseConfig.CASE_CONFIG.ID }, true);
     public static final UniqueKey<CaseDetailRecord> KEY_CASE_DETAIL_PRIMARY = Internal.createUniqueKey(CaseDetail.CASE_DETAIL, DSL.name("KEY_case_detail_PRIMARY"), new TableField[] { CaseDetail.CASE_DETAIL.ID }, true);
     public static final UniqueKey<CaseGroupRecord> KEY_CASE_GROUP_PRIMARY = Internal.createUniqueKey(CaseGroup.CASE_GROUP, DSL.name("KEY_case_group_PRIMARY"), new TableField[] { CaseGroup.CASE_GROUP.ID }, true);
     public static final UniqueKey<CaseResultRecord> KEY_CASE_RESULT_PRIMARY = Internal.createUniqueKey(CaseResult.CASE_RESULT, DSL.name("KEY_case_result_PRIMARY"), new TableField[] { CaseResult.CASE_RESULT.ID }, true);

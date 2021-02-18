@@ -52,7 +52,7 @@ public class CaseGroup extends TableImpl<CaseGroupRecord> {
     /**
      * The column <code>cow.case_group.id</code>.
      */
-    public final TableField<CaseGroupRecord, String> ID = createField(DSL.name("id"), SQLDataType.VARCHAR(32).nullable(false), this, "");
+    public final TableField<CaseGroupRecord, Integer> ID = createField(DSL.name("id"), SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
      * The column <code>cow.case_group.description</code>.
@@ -168,7 +168,7 @@ public class CaseGroup extends TableImpl<CaseGroupRecord> {
     // -------------------------------------------------------------------------
 
     @Override
-    public Row8<String, String, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
+    public Row8<Integer, String, Integer, LocalDate, LocalDateTime, String, LocalDateTime, String> fieldsRow() {
         return (Row8) super.fieldsRow();
     }
 }

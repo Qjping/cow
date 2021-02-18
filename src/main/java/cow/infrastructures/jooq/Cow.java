@@ -4,6 +4,7 @@
 package cow.infrastructures.jooq;
 
 
+import cow.infrastructures.jooq.tables.CaseConfig;
 import cow.infrastructures.jooq.tables.CaseDetail;
 import cow.infrastructures.jooq.tables.CaseGroup;
 import cow.infrastructures.jooq.tables.CaseResult;
@@ -32,6 +33,11 @@ public class Cow extends SchemaImpl {
      * The reference instance of <code>cow</code>
      */
     public static final Cow COW = new Cow();
+
+    /**
+     * The table <code>cow.case_config</code>.
+     */
+    public final CaseConfig CASE_CONFIG = CaseConfig.CASE_CONFIG;
 
     /**
      * The table <code>cow.case_detail</code>.
@@ -84,6 +90,7 @@ public class Cow extends SchemaImpl {
     @Override
     public final List<Table<?>> getTables() {
         return Arrays.<Table<?>>asList(
+            CaseConfig.CASE_CONFIG,
             CaseDetail.CASE_DETAIL,
             CaseGroup.CASE_GROUP,
             CaseResult.CASE_RESULT,
