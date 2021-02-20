@@ -1,0 +1,30 @@
+{"testdata":"$.code","testdata2":"$.data.topic1_id"}
+{"testdata":"$.code","testdata2":"$.data.topic1_id"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:01:39.885, updatedBy=''}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}

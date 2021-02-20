@@ -1,12 +1,12 @@
 package cow.applications.service;
 
 import com.alibaba.fastjson.JSONPath;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mysql.cj.util.StringUtils;
 import cow.infrastructures.converter.CaseDetailconverter;
 
 
-import cow.infrastructures.jooq.tables.CaseConfig;
-import cow.infrastructures.jooq.tables.UserDefineParam;
 import cow.infrastructures.repository.CaseDetailRepository;
 import cow.infrastructures.repository.CaseResultRepository;
 
@@ -16,10 +16,12 @@ import cow.infrastructures.struct.ido.CaseQueryIDO;
 import cow.infrastructures.struct.ido.PageResultIDO;
 import cow.infrastructures.struct.vo1.*;
 
+import cow.infrastructures.util.BusinessException;
+import cow.infrastructures.util.JsonUtil;
+import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 
 import org.json.JSONObject;
-import org.springframework.data.web.JsonPath;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -31,21 +33,25 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 @Service
+@Slf4j
 public class CaseDetailService {
     private final CaseDetailRepository caseDetailRepository;
     private final CaseDetailconverter caseDetailconverter;
     private final OkHttpClient client = new OkHttpClient();
     private final CaseResultRepository caseResultRepository;
     private final UserDefineParamRepository userDefineParamRepository;
-    private Map<String, String> userDefinParamMap = new HashMap();
+    private final JsonUtil jsonUtil;
+    private Map<String, String> userDefineParamMap = new HashMap();
+    private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     public static final MediaType JSON
             = MediaType.get("application/json; charset=utf-8");
 
-    public CaseDetailService(CaseDetailRepository caseDetailRepository, CaseDetailconverter caseDetailconverter, CaseResultRepository caseResultRepository, UserDefineParamRepository userDefineParamRepository) {
+    public CaseDetailService(CaseDetailRepository caseDetailRepository, CaseDetailconverter caseDetailconverter, CaseResultRepository caseResultRepository, UserDefineParamRepository userDefineParamRepository, JsonUtil jsonUtil) {
         this.caseDetailRepository = caseDetailRepository;
         this.caseDetailconverter = caseDetailconverter;
         this.caseResultRepository = caseResultRepository;
         this.userDefineParamRepository = userDefineParamRepository;
+        this.jsonUtil = jsonUtil;
     }
 
     public PageResultIDO<CaseQueryIDO> searchCaseDetailList(CaseQueryIDO caseQueryIDO) {
@@ -64,7 +70,7 @@ public class CaseDetailService {
         caseDetailRepository.addCase(caseDetailAddVO);
     }
 
-    //TODO 提取参数，
+    //TODO 保存参数，断言
     public void excute(CaseQueryIDO caseQueryIDO) {
         CaseQueryVO caseQueryVO = caseDetailconverter.caseQueryIdoTovo(caseQueryIDO);
         PageResultVO<CaseDetailVO> pageResultVO = caseDetailRepository.getCaseDetailListByCondition(caseQueryVO);
@@ -73,61 +79,65 @@ public class CaseDetailService {
         //查询自定义变量
 
         List<UserDefineParamVO> userDefineParams = userDefineParamRepository.seach(caseQueryVO);
-        userDefinParamMap = userDefineParams.stream().collect(
+        userDefineParamMap = userDefineParams.stream().collect(
                 Collectors.toMap(UserDefineParamVO::getParamName, UserDefineParamVO::getParamValue, (key1, key2) -> key2)
         );
+        //后期通过用户规则提取的变量
+        List<UserDefineParamVO> ruleUserDefineParamVOS = new ArrayList<>();
+        log.info("caseDetailVOS:"+caseDetailVOS.toString());
 
         //发送请求
         caseDetailVOS.forEach(caseDetailVO -> {
                     try {
-                        String header = replaceParemeters(caseDetailVO.getHeader());
-                        String url = replaceParemeters(caseDetailVO.getUrl());
-                        String data = replaceParemeters(caseDetailVO.getData());
                         //发送请求
-                        Response response = client.newCall(requestHttp(caseDetailVO)).execute();
+                        Response response = client.newCall(httpRequest(caseDetailVO)).execute();
                         CaseResultVO caseResultVO = new CaseResultVO();
                         //提取参数
                         if ( response.request().body() !=null) {
-                            caseResultVO.setData(data);
+                            caseResultVO.setData(response.request().body().toString());
                         }
-                        String responseCase = response.body().string();
-                        extraction(caseDetailVO,responseCase);
-
+                        String responseResult = response.body().string();
                         //保存结果
-                        Integer code = response.code();
-                        Headers headers = response.headers();
-
-
-                        caseResultVO.setUrl(url);
-                        caseResultVO.setResponseResult(responseCase);
+                        caseResultVO.setUrl(response.request().url().toString());
+                        caseResultVO.setResponseResult(responseResult);
                         caseResultVO.setCaseGroupId(caseDetailVO.getGroupId());
                         caseResultVO.setCaseId(caseDetailVO.getId());
                         caseResultVO.setMethod(caseDetailVO.getMethod());
                         caseResultVO.setPath(caseDetailVO.getPath());
-                        caseResultVO.setHeader(header);
-
+                        caseResultVO.setHeader(response.request().headers().toString());
                         caseResultList.add(caseResultVO);
+                        //提取参数
+                        if(!StringUtils.isNullOrEmpty(caseDetailVO.getExtract())){
+                            List<UserDefineParamVO> userDefineParamVOList = doExtraction(caseDetailVO, responseResult);
+                            ruleUserDefineParamVOS.addAll(userDefineParamVOList);
+                        }
+                        if(!StringUtils.isNullOrEmpty(caseDetailVO.getAssertions())){
+                            //todo 断言
+                            doAssert(caseDetailVO,responseResult);
+                        }
+                        //断言
 
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                 }
         );
+
         caseResultRepository.save(caseResultList);
+        userDefineParamRepository.save(ruleUserDefineParamVOS);
 
     }
 
-    public Request requestHttp(CaseDetailVO caseDetailVO) {
+    public Request httpRequest(CaseDetailVO caseDetailVO) {
         Request.Builder builder = new Request.Builder();
         Request request = null;
         String header = replaceParemeters(caseDetailVO.getHeader());
         String url = replaceParemeters(caseDetailVO.getUrl());
         String data = replaceParemeters(caseDetailVO.getData());
-//        if (StringUtils.isNullOrEmpty(header)) {
-//            return builder.url(caseDetailVO.getUrl()).get().build();
-//        }
+        if (StringUtils.isNullOrEmpty(header)) {
+            return builder.url(caseDetailVO.getUrl()).get().build();
+        }
         JSONObject headers = new JSONObject(header);
-
         headers.keySet().forEach(keys -> {
             builder.header(keys, headers.getString(keys));
                 }
@@ -136,38 +146,13 @@ public class CaseDetailService {
         if (!headers.has("Content-Type")) {
             return builder.url(caseDetailVO.getUrl()).get().build();
         }
-//        if (headers.getString("Content-Type").equals("application/x-www-form-urlencoded")){
-//            FormBody.Builder formBuilder = new FormBody.Builder();
-//            if (caseDetailVO.getMethod().equals("POST")){
-//                if (!StringUtils.isNullOrEmpty(data)){
-//                    JSONObject body = new JSONObject(data);
-//                    body.keySet().forEach(e->formBuilder.add(e,body.getString(e)));
-//                }
-//                FormBody body = formBuilder.build();
-//                request = builder.url(url).post(body).build();
-//            }else if (method.equals("GET")){
-//                request = builder.url(url).build();
-//            }
-//        }
-
-        if (headers.getString("Content-Type").contains("application/json")) {
-            RequestBody body = RequestBody.create(data, JSON);
-            switch (caseDetailVO.getMethod()) {
-                case "POST":
-                    request = builder.url(url).post(body).build();
-                    break;
-                case "PUT":
-                    request = builder.url(url).put(body).build();
-                    break;
-                case "DELETE":
-                    request = builder.url(url).delete(body).build();
-                    break;
-                default:
-                    request = builder.url(url).build();
-                    break;
-            }
+        RequestBody body = RequestBody.create(data, JSON);
+        switch (caseDetailVO.getMethod()) {
+            case "POST":request = builder.url(url).post(body).build();break;
+            case "PUT":request = builder.url(url).put(body).build();break;
+            case "DELETE": request = builder.url(url).delete(body).build();break;
+            default:request = builder.url(url).build();break;
         }
-
         return request;
     }
 
@@ -181,30 +166,76 @@ public class CaseDetailService {
         while (m.find()) {
             //去全局变量map里查
             String newStr = m.group().replace("${", "").replace("}", "");
-            string = string.replace(m.group(), userDefinParamMap.get(newStr));
+            string = string.replace(m.group(), userDefineParamMap.get(newStr));
         }
         return string.replaceAll("\r|\n", "");
     }
 
-    private void extraction(CaseDetailVO caseDetailVO, String result) {
+    private List<UserDefineParamVO> doExtraction(CaseDetailVO caseDetailVO, String result) throws BusinessException, JsonProcessingException {
+        List<UserDefineParamVO> userDefineParamVOS = new ArrayList<>();
+        UserDefineParamVO userDefineParamVO = new UserDefineParamVO();
         String extract = caseDetailVO.getExtract();
-        if (!StringUtils.isNullOrEmpty(extract)) {
             //获得存储变量名及变量的path
-            JSONObject dependFields = new JSONObject(extract);
-            Iterator<String> sIterator = dependFields.keys();
-            while (sIterator.hasNext()) {
-                // 获得变量名
-                String variable = sIterator.next();
-                // 获得变量path
-                String variablePath = dependFields.getString(variable);
+        //
+
+            log.error(extract.toString());
+            JSONObject extrats = new JSONObject(extract);
+
+            extrats.toMap().forEach((paramName,paramValue)->{
                 // 从返回结果中获取变量值fasjson
-//                String variableValue = JSONPath.eval(result, variablePath).toString();
-                String variableValue = JSONPath.read(result,variablePath).toString();
-                // 将获取的变量放到用于储存全局变量的map中
-                userDefinParamMap.put(variable, variableValue);
-                System.out.println("全局变量 :" + userDefinParamMap.toString());
+                if((JSONPath.read(result, (String) paramValue)!=null)){
+                    String variableValue = JSONPath.extract(result,(String) paramValue).toString();
+                    userDefineParamVO.setCaseGroupId(caseDetailVO.getGroupId());
+                    userDefineParamVO.setParamName(paramName);
+                    userDefineParamVO.setParamValue(variableValue);
+                    userDefineParamVOS.add(userDefineParamVO);
+                    userDefineParamMap.put(paramName, variableValue);
+                }else {
+                    //todo 处理jsonpath不存在
+
+                }
+            });
+
+        return userDefineParamVOS;
+    }
+
+    //断言处理
+
+    /**
+     *
+     * @param caseDetailVO
+     * @param resultResponce
+     * @throws IOException
+     */
+     public  void doAssert(CaseDetailVO caseDetailVO, String resultResponce) throws IOException {
+
+//        JSONObject expecteds= jsonUtil.toEntity(caseDetailVO.getAssertions(),JSONObject.class);
+        JSONObject expecteds=new JSONObject((caseDetailVO.getAssertions()));
+        log.info("断言规则:"+expecteds.toString());
+        expecteds.keys().forEachRemaining(actualVaule->{
+            expecteds.getString(actualVaule);
+            if(JSONPath.extract(resultResponce,expecteds.getString(actualVaule))!=null) {
+                String expectedValue = JSONPath.extract(resultResponce, expecteds.getString(actualVaule)).toString();
+                String regex = "\\$\\{(.*?)\\}";
+                Pattern p = Pattern.compile(regex);
+                Matcher m = p.matcher(expectedValue);
+                if (m.find()) {
+                    actualVaule = actualVaule.replace("${", "").replace("}", "");
+                    if (!userDefineParamMap.get(actualVaule).equals(expectedValue)) {
+                        log.info("assert匹配失败用例id:" + caseDetailVO.toString() + ",期望的值：" + expectedValue);
+                    }
+                    //               Assert.doAssert(CaseConfig.globalParam.get(expected), expecteds);
+                } else {
+                    if (!actualVaule.equals(expectedValue)) {
+                        log.info("assert匹配失败用例id:" + caseDetailVO.toString() + ",期望的值：" + expectedValue);
+                    }
+                    //                Assert.doAssert(expecteds.getString(path), CaseConfig.globalParam.get(expected));
+                }
+            }else {
+                log.error("断言值未找到:"+caseDetailVO.toString());
             }
-        }
+        });
+
     }
 
 }

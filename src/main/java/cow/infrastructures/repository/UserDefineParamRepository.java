@@ -1,7 +1,10 @@
 package cow.infrastructures.repository;
 
 import cow.infrastructures.jooq.tables.UserDefineParam;
+import cow.infrastructures.jooq.tables.records.CaseResultRecord;
+import cow.infrastructures.jooq.tables.records.UserDefineParamRecord;
 import cow.infrastructures.struct.vo1.CaseQueryVO;
+import cow.infrastructures.struct.vo1.CaseResultVO;
 import cow.infrastructures.struct.vo1.UserDefineParamVO;
 import org.jooq.Condition;
 import org.jooq.DSLContext;
@@ -33,7 +36,16 @@ public class UserDefineParamRepository {
                 .fetchStream()
                 .map(v -> v.into(UserDefineParamVO.class))
                 .collect(Collectors.toList());
+    }
 
+    public void  save(List<UserDefineParamVO> userDefineParamVOS){
+        List<UserDefineParamRecord> recordList = new ArrayList<>();
+        userDefineParamVOS.forEach(userDefineParamVO -> {
+                    recordList.add(create.newRecord(udp,userDefineParamVO));
+                }
+        );
+
+        create.batchInsert(recordList).execute();
 
     }
 }

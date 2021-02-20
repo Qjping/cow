@@ -1,0 +1,1110 @@
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 24080 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.3 seconds (JVM running for 5.397)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 21024 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.486 seconds (JVM running for 5.626)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 21736 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.041s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.517 seconds (JVM running for 5.659)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 14232 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.027s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.423 seconds (JVM running for 5.603)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 11572 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.028s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.319 seconds (JVM running for 5.394)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 15656 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.047s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.26 seconds (JVM running for 5.351)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 9932 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.313 seconds (JVM running for 5.44)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 21532 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.026s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.215 seconds (JVM running for 5.27)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 1988 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.026s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.167 seconds (JVM running for 5.294)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+断言规则:{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 22444 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.047s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.971 seconds (JVM running for 6.42)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m602ms279µs).
+断言规则:{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 11320 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.034s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.338 seconds (JVM running for 5.773)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+断言规则:{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 23508 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.028s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.368 seconds (JVM running for 5.434)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"code":"20000","data":20}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T01:50:20.976, updatedBy=''}]
+断言规则:{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 18636 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.629 seconds (JVM running for 5.809)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"code":"20000","data":20}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T01:50:20.976, updatedBy=''}]
+断言规则:{"code":"20000","data":20}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 2152 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.039s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.319 seconds (JVM running for 5.346)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"code":"20000","data":20}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T01:50:20.976, updatedBy=''}]
+断言规则:{"code":"20000","data":20}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 11268 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.036s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.293 seconds (JVM running for 5.343)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"code":"20000","data":20}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T01:50:20.976, updatedBy=''}]
+断言规则:{"code":"20000","data":20}
+assert:false
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 6456 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.245 seconds (JVM running for 5.374)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"code":"20000","data":20}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T01:50:20.976, updatedBy=''}]
+断言规则:{"code":"20000","data":20}
+assert:false
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 13296 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.539 seconds (JVM running for 5.892)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:36:34.214, updatedBy=''}]
+断言规则:{"20000":"$.code"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 6688 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.034s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.271 seconds (JVM running for 5.359)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:36:34.214, updatedBy=''}]
+断言规则:{"20000":"$.code"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 8264 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.319 seconds (JVM running for 5.418)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 21736 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.028s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.33 seconds (JVM running for 5.382)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 9892 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.859 seconds (JVM running for 6.298)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 14400 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.032s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.949 seconds (JVM running for 6.554)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 12280 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.026s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.296 seconds (JVM running for 5.763)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+assert:true
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 10224 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.032s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.259 seconds (JVM running for 5.423)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+assert:false
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 16296 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.028s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 5.76 seconds (JVM running for 6.924)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+assert匹配失败用例id:4020000
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 12540 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.026s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.495 seconds (JVM running for 5.573)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T02:42:33.876, updatedBy=''}]
+断言规则:{"20000te":"$.code"}
+assert匹配失败用例id:40,期望的值：20000
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 6456 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.343 seconds (JVM running for 5.436)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:01:39.885, updatedBy=''}]
+断言规则:{"20000te":"$.code1"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 18408 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.030s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.318 seconds (JVM running for 5.411)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.

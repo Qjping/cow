@@ -1,89 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <!-- 服务相关信息, 必须配置 -->
-    <property name="LOG_SERVICE" value="merp-wms"/>
-    <property name="LOG_MODULE" value="merp-wms-web"/>
-    <property name="LOG_LEVEL" value="INFO"/>
-    <!-- 输出到redis的相关配置, ${} 为系统环境变量, 上docker环境之前需要找运维配置以下变量 ${MERP_WMS_LOG_LEVEL:-INFO}-->
-    <springProfile name="docker">
-        <property name="LOG_LEVEL" value="${MERP_WMS_LOG_LEVEL:-INFO}"/>
-        <property name="LOG_REDIS_HOST" value="${MERP_WMS_LOG_REDIS_HOST}"/>
-        <property name="LOG_REDIS_PORT" value="${MERP_WMS_LOG_REDIS_PORT}"/>
-        <property name="LOG_REDIS_PWD" value="${MERP_WMS_LOG_REDIS_PWD}"/>
-        <property name="LOG_REDIS_NAME" value="${MERP_WMS_LOG_REDIS_NAME}"/>
-    </springProfile>
-    <springProfile name="dev,stage4">
-        <property name="LOG_LEVEL" value="DEBUG"/>
-        <property name="LOG_MAX_HISTORY" value="3"/>
-        <property name="LOG_MAX_FILE_SIZE" value="300MB"/>
-    </springProfile>
+<?xml version="1.0" encoding="UTF-8" ?>
 
-    <!-- 输出的消息模板 -->
-    <property name="LOG_PATTERN"
-              value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level ${PID} ${LOG_MODULE} --- [%X{Access-Token}] [%X{Msg-Id}] [%thread] %-40logger{36} : %msg%n"/>
-    <appender name="APPLICATION_CONSOLE_LOG" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <pattern>${LOG_PATTERN}</pattern>
-        </encoder>
+<configuration>
+
+    <appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                %d - %msg%n
+            </pattern>
+        </layout>
     </appender>
 
-    <!-- dev环境仅输出至控制台 -->
-    <springProfile name="dev,stage4">
-        <root level="INFO">
-            <appender-ref ref="APPLICATION_CONSOLE_LOG"/>
-        </root>
-    </springProfile>
+    <appender name="fileInfoLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>
+                %msg%n
+            </pattern>
+        </encoder>
+        <!--滚动策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--路径-->
+            <fileNamePattern>info.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
 
-    <!-- docker环境需要输出至控制台(会统一收录至一个common的索引中, 可在kibana中查看)和redis(用于重要日志收集) INFO-->
-    <springProfile name="docker">
-        <appender name="LOGSTASH" class="com.cwbase.logback.RedisAppender">
-            <host>${LOG_REDIS_HOST}</host>
-            <port>${LOG_REDIS_PORT}</port>
-            <password>${LOG_REDIS_PWD}</password>
-            <database>${LOG_REDIS_NAME}</database>
-            <key>${LOG_SERVICE}</key>
-            <source>${LOG_SERVICE}</source>
-            <type>${LOG_MODULE}</type>
-            <!-- 自定义字段可单独在ELK中被筛选 -->
-            <additionalField>
-                <key>pid</key>
-                <value>${PID}</value>
-            </additionalField>
-        </appender>
-        <appender name="APPLICATION_REDIS_LOG" class="ch.qos.logback.classic.AsyncAppender">
-            <appender-ref ref="LOGSTASH"/>
-        </appender>
 
-        <root level="INFO">
-            <appender-ref ref="APPLICATION_REDIS_LOG"/>
-            <appender-ref ref="APPLICATION_CONSOLE_LOG"/>
-        </root>
-    </springProfile>
+    <appender name="fileErrorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <encoder>
+            <pattern>
+                %msg%n
+            </pattern>
+        </encoder>
+        <!--滚动策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--路径-->
+            <fileNamePattern>error.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
 
-    <!-- stage4环境仅输出至文件 -->
-    <springProfile name="stage4">
-        <property name="LOG_PATH" value="/srv/logs/${LOG_MODULE}"/>
-        <appender name="APPLICATION_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
-            <file>${LOG_PATH}/application.log</file>
-            <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-                <pattern>${LOG_PATTERN}</pattern>
-                <charset>UTF-8</charset>
-            </encoder>
-            <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-                <fileNamePattern>${LOG_PATH}/application.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
-                <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                    <maxFileSize>${LOG_MAX_FILE_SIZE}</maxFileSize>
-                </timeBasedFileNamingAndTriggeringPolicy>
-                <maxHistory>${LOG_MAX_HISTORY}</maxHistory>
-            </rollingPolicy>
-        </appender>
+    <root level="info">
+        <appender-ref ref="consoleLog" />
+        <appender-ref ref="fileInfoLog" />
+        <appender-ref ref="fileErrorLog" />
+    </root>
 
-        <root level="INFO">
-            <appender-ref ref="APPLICATION_LOG"/>
-        </root>
-    </springProfile>
-
-    <!-- 根据配置打印wewin包下面的日志 -->
-    <logger name="wewin" level="${LOG_LEVEL}">
-    </logger>
 </configuration>

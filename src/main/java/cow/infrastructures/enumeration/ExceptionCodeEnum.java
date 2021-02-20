@@ -1,7 +1,7 @@
 package cow.infrastructures.enumeration;
 
 public enum ExceptionCodeEnum {
-    ARGUMENT_NOT_VALID_EXCEPTION(40000),
+    JSON_PATH_NOT_EXIST(40000,""),
     INVENTORY_NOT_ENOUGH(40001),
     UNEXPECTED_EXCEPTION(50000),
     NO_ACCESS_TOKEN(44101),

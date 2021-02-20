@@ -4,8 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Component;
 
 /**
- * @author napuping
- * @date 2020-12-10 下午4:36
+ * @author qiujingping
+ *
  * @description
  */
 @Component
