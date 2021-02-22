@@ -12,10 +12,10 @@ class CaseDetailServiceTest {
     CaseDetailService caseDetailService;
 
     @Test
-    public void excute(){
+    public void execute(){
         CaseQueryIDO caseQueryIDO = new CaseQueryIDO();
 //        caseQueryIDO.setGroupId("1");
-        caseDetailService.excute(caseQueryIDO);
+        caseDetailService.execute(caseQueryIDO);
     }
 
 

@@ -1,0 +1,699 @@
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 16212 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.100s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.343 seconds (JVM running for 5.507)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0""].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:26:43.736, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 17008 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.037s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.225 seconds (JVM running for 5.339)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0""].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:26:43.736, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 12552 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.173 seconds (JVM running for 5.17)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:31:34.423, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 12828 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.027s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.415 seconds (JVM running for 5.487)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:31:34.423, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+{}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 17844 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.033s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.207 seconds (JVM running for 5.214)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:31:34.423, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+{token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 17100 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.281 seconds (JVM running for 5.326)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:31:34.423, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+{token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 16540 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.033s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.419 seconds (JVM running for 5.442)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:31:34.423, updatedBy=''}, DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}]
+{token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 14464 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.413 seconds (JVM running for 5.671)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{“booking_id":”data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:31:34.423, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}]
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 17740 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.027s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.299 seconds (JVM running for 5.45)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:42:32.054, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}]
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 16136 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.027s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.341 seconds (JVM running for 5.326)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data["0"].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:42:32.054, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}]
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 17752 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.028s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.182 seconds (JVM running for 5.257)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:43:48.664, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='null', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:27:26.624, updatedBy=''}]
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+提取路径不存在:{"booking_id":"data[0].booking_id"}返回结果：{"code":44000,"message":"No Access token found in store"}
+{code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 6416 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.026s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.162 seconds (JVM running for 5.204)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:45:05.604, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:45:16.276, updatedBy=''}]
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+提取路径不存在:{"booking_id":"data[0].booking_id"}返回结果：{"code":44000,"message":"No Access token found in store"}
+{code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 16580 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.043s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.274 seconds (JVM running for 5.25)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+{code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 16080 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.366 seconds (JVM running for 5.41)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13972 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 59 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1719 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.033s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.343 seconds (JVM running for 4.753)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 0 ms
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18020 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1468 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.033s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.142 seconds (JVM running for 4.613)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+断言规则:{"20000":"$.code1","20000te":"$.code1"}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+{booking_id=860d5c03efba4343b91bdf639584dda0, code=20000, token=sp9kQbhdlUoHQoLUC8hM89osJQouYBlM}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 15448 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18680 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

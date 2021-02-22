@@ -27,6 +27,7 @@ public class UserDefineParamRepository {
     public List<UserDefineParamVO> seach(CaseQueryVO caseQueryVO) {
         List<Condition> condition = new ArrayList<>();
 
+
         if (caseQueryVO.getGroupId() != null) {
             condition.add(USER_DEFINE_PARAM.CASE_GROUP_ID.eq(caseQueryVO.getGroupId()));
         }

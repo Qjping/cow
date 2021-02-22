@@ -44,7 +44,7 @@ public class CaseDetailRepository {
 
         return new PageResultVO<>(create.selectFrom(CASE_DETAIL)
                 .where(condition)
-                .orderBy(CASE_DETAIL.CREATED_AT.desc())
+                .orderBy(CASE_DETAIL.ID.asc())
                 .limit(caseQueryVo.getLimit())
                 .offset(Math.max((caseQueryVo.getPage() - 1) * caseQueryVo.getLimit(), 0))
                 .fetchStream()

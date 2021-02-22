@@ -22,12 +22,14 @@ import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 
 import org.json.JSONObject;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
 import java.io.IOException;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -70,8 +72,8 @@ public class CaseDetailService {
         caseDetailRepository.addCase(caseDetailAddVO);
     }
 
-    //TODO 保存参数，断言
-    public void excute(CaseQueryIDO caseQueryIDO) {
+@Async
+    public void execute(CaseQueryIDO caseQueryIDO) {
         CaseQueryVO caseQueryVO = caseDetailconverter.caseQueryIdoTovo(caseQueryIDO);
         PageResultVO<CaseDetailVO> pageResultVO = caseDetailRepository.getCaseDetailListByCondition(caseQueryVO);
         List<CaseDetailVO> caseDetailVOS = pageResultVO.getList();
@@ -85,13 +87,16 @@ public class CaseDetailService {
         //后期通过用户规则提取的变量
         List<UserDefineParamVO> ruleUserDefineParamVOS = new ArrayList<>();
         log.info("caseDetailVOS:"+caseDetailVOS.toString());
-
+        AtomicReference<Integer> passCount= new AtomicReference<>(0);
         //发送请求
         caseDetailVOS.forEach(caseDetailVO -> {
                     try {
                         //发送请求
-                        Response response = client.newCall(httpRequest(caseDetailVO)).execute();
+                        Response response = client.newCall(doHttpRequest(caseDetailVO)).execute();
                         CaseResultVO caseResultVO = new CaseResultVO();
+                        if(response.code()==200){
+                            passCount.getAndSet(passCount.get() + 1);
+                        }
                         //提取参数
                         if ( response.request().body() !=null) {
                             caseResultVO.setData(response.request().body().toString());
@@ -128,12 +133,12 @@ public class CaseDetailService {
 
     }
 
-    public Request httpRequest(CaseDetailVO caseDetailVO) {
+    public Request doHttpRequest(CaseDetailVO caseDetailVO) {
         Request.Builder builder = new Request.Builder();
         Request request = null;
-        String header = replaceParemeters(caseDetailVO.getHeader());
-        String url = replaceParemeters(caseDetailVO.getUrl());
-        String data = replaceParemeters(caseDetailVO.getData());
+        String header = replaceParameters(caseDetailVO.getHeader());
+        String url = replaceParameters(caseDetailVO.getUrl());
+        String data = replaceParameters(caseDetailVO.getData());
         if (StringUtils.isNullOrEmpty(header)) {
             return builder.url(caseDetailVO.getUrl()).get().build();
         }
@@ -156,7 +161,7 @@ public class CaseDetailService {
         return request;
     }
 
-    public String replaceParemeters(String string) {
+    public String replaceParameters(String string) {
         if (StringUtils.isNullOrEmpty(string)) {
             return string;
         }
@@ -166,6 +171,7 @@ public class CaseDetailService {
         while (m.find()) {
             //去全局变量map里查
             String newStr = m.group().replace("${", "").replace("}", "");
+            log.info(userDefineParamMap.toString());
             string = string.replace(m.group(), userDefineParamMap.get(newStr));
         }
         return string.replaceAll("\r|\n", "");
@@ -191,6 +197,7 @@ public class CaseDetailService {
                     userDefineParamVOS.add(userDefineParamVO);
                     userDefineParamMap.put(paramName, variableValue);
                 }else {
+                    log.info("提取路径不存在:"+caseDetailVO.getExtract()+"返回结果："+result);
                     //todo 处理jsonpath不存在
 
                 }

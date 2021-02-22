@@ -1,0 +1,160 @@
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+{“booking_id":”data["0"].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+{"booking_id":"data["0"].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+{"booking_id":"data["0"].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "$.token","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-21T03:03:31.900, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+{"code":"$.code"}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+断言值未找到:DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}
+{"booking_id":"data[0].booking_id"}
+Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:244)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:767)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at cow.CowApplication.main(CowApplication.java:22)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:617)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	... 15 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:337)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:444)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	... 37 common frames omitted
+Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:244)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:767)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at cow.CowApplication.main(CowApplication.java:22)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:617)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1119)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	... 15 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.controller.UserController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:337)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:444)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	... 37 common frames omitted

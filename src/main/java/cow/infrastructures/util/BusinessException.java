@@ -2,6 +2,8 @@
 
 package cow.infrastructures.util;
 
+import cow.infrastructures.enumeration.ExceptionCodeEnum;
+
 public class BusinessException extends RuntimeException {
     private final Integer code;
     private final String message;
@@ -16,6 +18,7 @@ public class BusinessException extends RuntimeException {
         this.code = code;
         this.message = message;
     }
+
 
     public Integer getCode() {
         return this.code;

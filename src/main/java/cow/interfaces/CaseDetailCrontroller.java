@@ -33,10 +33,10 @@ public class CaseDetailCrontroller {
     }
 
 
-    @GetMapping("excute")
-    public ApiResultIDO<PageResultIDO<Void>> excute(CaseQueryIDO caseQueryIDO){
-        caseDetailService.excute(caseQueryIDO);
-        return null;
+    @GetMapping("execute")
+    public ApiResultIDO<PageResultIDO<Void>> execute(CaseQueryIDO caseQueryIDO){
+        caseDetailService.execute(caseQueryIDO);
+        return ApiResultIDO.success();
     }
 
 

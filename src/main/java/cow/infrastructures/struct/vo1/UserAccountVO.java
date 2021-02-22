@@ -7,8 +7,8 @@ import java.time.LocalDate;
  * table name: user_account
  * author name: qiujingping
  * create time: 2021-02-07 15:11:15
- */ 
-public class AccountVO {
+ */
+public class UserAccountVO {
 
     private String id;
     private String userId;
@@ -103,17 +103,17 @@ public class AccountVO {
 
     @Override
     public String toString() {
-        return "AccountVO{" + 
-            "id='" + id + '\'' + 
-            ", userId='" + userId + '\'' + 
-            ", account='" + account + '\'' + 
-            ", password='" + password + '\'' + 
-            ", createdAt=" + createdAt + 
-            ", updatedAt=" + updatedAt + 
-            ", recordDate=" + recordDate + 
-            ", createdBy='" + createdBy + '\'' + 
-            ", salt='" + salt + '\'' + 
-            ", status=" + status + 
+        return "AccountVO{" +
+            "id='" + id + '\'' +
+            ", userId='" + userId + '\'' +
+            ", account='" + account + '\'' +
+            ", password='" + password + '\'' +
+            ", createdAt=" + createdAt +
+            ", updatedAt=" + updatedAt +
+            ", recordDate=" + recordDate +
+            ", createdBy='" + createdBy + '\'' +
+            ", salt='" + salt + '\'' +
+            ", status=" + status +
             "}";
     }
 }
