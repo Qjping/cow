@@ -697,3 +697,288 @@ Exception encountered during context initialization - cancelling refresh attempt
 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 6448 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1424 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.152 seconds (JVM running for 4.582)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 15636 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1730 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 19616 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1712 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 15948 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1675 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 12588 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1639 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18404 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1695 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13680 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1661 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 4476 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1841 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13348 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1665 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService' defined in file [D:\cow\target\classes\cow\applications\service\UserService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cow.infrastructures.converter.UserConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 11996 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1695 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.033s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 40.605 seconds (JVM running for 41.231)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18372 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1710 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.102s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 27.638 seconds (JVM running for 28.281)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 20868 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 56 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1760 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.058s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 56.975 seconds (JVM running for 57.401)

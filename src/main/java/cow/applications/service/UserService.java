@@ -44,8 +44,9 @@ public class UserService {
             throw new BusinessException(ExceptionCodeEnum.UNEXPECTED_EXCEPTION.getCode(),"密码不正确");
         }
         String token = UUID.randomUUID().toString();
-        redisTemplate.opsForValue().set(String.format(RedisConstant.TOKEN_PREFIX,token),userAccountVO.getAccount(),RedisConstant.EXPIRE, TimeUnit.SECONDS);
+//        redisTemplate.opsForValue().set(String.format(RedisConstant.TOKEN_PREFIX,token),userAccountVO.getAccount(),RedisConstant.EXPIRE, TimeUnit.SECONDS);
         LoginUserIDO loginUserIDO = userConverter.voToIdo(userAccountVO);
+        loginUserIDO = new LoginUserIDO();
         loginUserIDO.setToken(token);
         return loginUserIDO;
     }
