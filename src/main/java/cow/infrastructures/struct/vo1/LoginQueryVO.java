@@ -6,7 +6,7 @@ import lombok.Data;
 public class LoginQueryVO {
 
     private String account;
-    private String loginCode;
+    private String password;
 
 
 

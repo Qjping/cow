@@ -14,30 +14,30 @@ spring:
       hibernate:
         ddl-auto: create
     jackson:
-      # ÉèÖÃÊôĞÔÃüÃû²ßÂÔ,¶ÔÓ¦jacksonÏÂPropertyNamingStrategyÖĞµÄ³£Á¿Öµ£¬SNAKE_CASE-·µ»ØµÄjsonÍÕ·åÊ½×ªÏÂ»®Ïß£¬json bodyÏÂ»®Ïß´«µ½ºó¶Ë×Ô¶¯×ªÍÕ·åÊ½
+      # è®¾ç½®å±æ€§å‘½åç­–ç•¥,å¯¹åº”jacksonä¸‹PropertyNamingStrategyä¸­çš„å¸¸é‡å€¼ï¼ŒSNAKE_CASE-è¿”å›çš„jsoné©¼å³°å¼è½¬ä¸‹åˆ’çº¿ï¼Œjson bodyä¸‹åˆ’çº¿ä¼ åˆ°åç«¯è‡ªåŠ¨è½¬é©¼å³°å¼
       property-naming-strategy: SNAKE_CASE
 
 
     flyway:
       enabled: true
-      ## ±àÂë¸ñÊ½£¬Ä¬ÈÏUTF-8
+      ## ç¼–ç æ ¼å¼ï¼Œé»˜è®¤UTF-8
       encoding: UTF-8
-      ## Ç¨ÒÆsql½Å±¾ÎÄ¼ş´æ·ÅÂ·¾¶£¬Ä¬ÈÏdb/migration
+      ## è¿ç§»sqlè„šæœ¬æ–‡ä»¶å­˜æ”¾è·¯å¾„ï¼Œé»˜è®¤db/migration
       locations: filesystem:db/migration
-      ## Ç¨ÒÆsql½Å±¾ÎÄ¼şÃû³ÆµÄÇ°×º£¬Ä¬ÈÏV
+      ## è¿ç§»sqlè„šæœ¬æ–‡ä»¶åç§°çš„å‰ç¼€ï¼Œé»˜è®¤V
       sqlMigrationPrefix: V
-      ## Ç¨ÒÆsql½Å±¾ÎÄ¼şÃû³ÆµÄ·Ö¸ô·û£¬Ä¬ÈÏ2¸öÏÂ»®Ïß__
+      ## è¿ç§»sqlè„šæœ¬æ–‡ä»¶åç§°çš„åˆ†éš”ç¬¦ï¼Œé»˜è®¤2ä¸ªä¸‹åˆ’çº¿__
       sqlMigrationSeparator: __
-      # Ç¨ÒÆsql½Å±¾ÎÄ¼şÃû³ÆµÄºó×º
+      # è¿ç§»sqlè„šæœ¬æ–‡ä»¶åç§°çš„åç¼€
       sqlMigrationSuffixes: .sql
-      # Ç¨ÒÆÊ±ÊÇ·ñ½øĞĞĞ£Ñé£¬Ä¬ÈÏtrue
+      # è¿ç§»æ—¶æ˜¯å¦è¿›è¡Œæ ¡éªŒï¼Œé»˜è®¤true
       validateOnMigrate: true
-      # ÉèÖÃÎªtrue£¬µ±Ç¨ÒÆ·¢ÏÖÊı¾İ¿â·Ç¿ÕÇÒ´æÔÚÃ»ÓĞÔªÊı¾İµÄ±íÊ±£¬×Ô¶¯Ö´ĞĞ»ù×¼Ç¨ÒÆ£¬ĞÂ½¨schema_version±í
+      # è®¾ç½®ä¸ºtrueï¼Œå½“è¿ç§»å‘ç°æ•°æ®åº“éç©ºä¸”å­˜åœ¨æ²¡æœ‰å…ƒæ•°æ®çš„è¡¨æ—¶ï¼Œè‡ªåŠ¨æ‰§è¡ŒåŸºå‡†è¿ç§»ï¼Œæ–°å»ºschema_versionè¡¨
       baselineOnMigrate: true
-      # postgres10Ã»ÓĞÒıÈëÕâ¸ö²»ÌáÊ¾´íÎó£¬postgres12Ã»ÓĞÒıÈë»á±¨´í
+      # postgres10æ²¡æœ‰å¼•å…¥è¿™ä¸ªä¸æç¤ºé”™è¯¯ï¼Œpostgres12æ²¡æœ‰å¼•å…¥ä¼šæŠ¥é”™
       schemas: cow
 
-  # ´Ë´¦ÅäÖÃÔÚÆô¶¯Ö÷³ÌĞòÊ±¼ÓÔØ
+  # æ­¤å¤„é…ç½®åœ¨å¯åŠ¨ä¸»ç¨‹åºæ—¶åŠ è½½
 
 
 
@@ -51,4 +51,3 @@ logging:
   pattern:
     console: "%d - %msg%n"
     default-property-inclusion: non_null
-

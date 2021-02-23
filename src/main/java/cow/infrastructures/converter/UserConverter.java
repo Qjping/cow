@@ -1,6 +1,5 @@
 package cow.infrastructures.converter;
 
-import cow.infrastructures.jooq.tables.UserAccount;
 import cow.infrastructures.struct.ido.LoginQueryIDO;
 import cow.infrastructures.struct.ido.LoginUserIDO;
 import cow.infrastructures.struct.vo1.LoginQueryVO;

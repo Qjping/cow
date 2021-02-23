@@ -96,31 +96,30 @@ public class CaseDetailService {
                         CaseResultVO caseResultVO = new CaseResultVO();
                         if(response.code()==200){
                             passCount.getAndSet(passCount.get() + 1);
+                            if ( response.request().body() !=null) {
+                                caseResultVO.setData(response.request().body().toString());
+                            }
+                            String responseResult = response.body().string();
+                            //保存结果
+                            caseResultVO.setUrl(response.request().url().toString());
+                            caseResultVO.setResponseResult(responseResult);
+                            caseResultVO.setCaseGroupId(caseDetailVO.getGroupId());
+                            caseResultVO.setCaseId(caseDetailVO.getId());
+                            caseResultVO.setMethod(caseDetailVO.getMethod());
+                            caseResultVO.setPath(caseDetailVO.getPath());
+                            caseResultVO.setHeader(response.request().headers().toString());
+                            caseResultList.add(caseResultVO);
+                            //提取参数
+                            if(!StringUtils.isNullOrEmpty(caseDetailVO.getExtract())){
+                                List<UserDefineParamVO> userDefineParamVOList = doExtraction(caseDetailVO, responseResult);
+                                ruleUserDefineParamVOS.addAll(userDefineParamVOList);
+                            }
+
+                            if(!StringUtils.isNullOrEmpty(caseDetailVO.getAssertions())){
+                                //todo 断言
+                                doAssert(caseDetailVO,responseResult);
+                            }
                         }
-                        //提取参数
-                        if ( response.request().body() !=null) {
-                            caseResultVO.setData(response.request().body().toString());
-                        }
-                        String responseResult = response.body().string();
-                        //保存结果
-                        caseResultVO.setUrl(response.request().url().toString());
-                        caseResultVO.setResponseResult(responseResult);
-                        caseResultVO.setCaseGroupId(caseDetailVO.getGroupId());
-                        caseResultVO.setCaseId(caseDetailVO.getId());
-                        caseResultVO.setMethod(caseDetailVO.getMethod());
-                        caseResultVO.setPath(caseDetailVO.getPath());
-                        caseResultVO.setHeader(response.request().headers().toString());
-                        caseResultList.add(caseResultVO);
-                        //提取参数
-                        if(!StringUtils.isNullOrEmpty(caseDetailVO.getExtract())){
-                            List<UserDefineParamVO> userDefineParamVOList = doExtraction(caseDetailVO, responseResult);
-                            ruleUserDefineParamVOS.addAll(userDefineParamVOList);
-                        }
-                        if(!StringUtils.isNullOrEmpty(caseDetailVO.getAssertions())){
-                            //todo 断言
-                            doAssert(caseDetailVO,responseResult);
-                        }
-                        //断言
 
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -172,7 +171,12 @@ public class CaseDetailService {
             //去全局变量map里查
             String newStr = m.group().replace("${", "").replace("}", "");
             log.info(userDefineParamMap.toString());
-            string = string.replace(m.group(), userDefineParamMap.get(newStr));
+            if(userDefineParamMap.containsKey(newStr)){
+                string = string.replace(m.group(), userDefineParamMap.get(newStr));
+            }else {
+                log.error("全局变量未有此变量："+string);
+            }
+
         }
         return string.replaceAll("\r|\n", "");
     }

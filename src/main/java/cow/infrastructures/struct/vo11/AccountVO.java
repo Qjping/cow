@@ -1,14 +1,14 @@
-package cow.infrastructures.struct.vo1;
+package cow.infrastructures.struct.vo11;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 /**
  * table name: user_account
  * author name: qiujingping
  * create time: 2021-02-23 11:12:49
  */
-public class UserAccountVO {
+public class AccountVO {
 
     private String id;
     private String userId;

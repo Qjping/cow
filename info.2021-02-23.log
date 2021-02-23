@@ -1,0 +1,1181 @@
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 4612 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 8 migrations (execution time 00:00.028s)
+Current version of schema `cow`: 1.0.0.0.7
+Schema `cow` is up to date. No migration necessary.
+Started CaseDetailServiceTest in 4.866 seconds (JVM running for 5.878)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+caseDetailVOS:[DetailVO{id=40, url='https://api2.mywhfz.com/pms-api/topic/c-topic/detail?topic_id=8d1b82a3724a46dd8ae802ac04357609&mode=VIEW', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='{"20000te":"$.code1","20000":"$.code1"}', extract='{"code":"$.code"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-21T01:45:41.089, createdBy='system', updatedAt=2021-02-22T23:45:58.479, updatedBy=''}, DetailVO{id=41, url='https://api2.mywhfz.com/pms-api/topic/c-booking/owner-topic-bookings?keyword=&goods_sku_ids=&page=1&limit=10&remark=0&pickup_site_id=&topic_id=8d1b82a3724a46dd8ae802ac04357609', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='{"booking_id":"data[0].booking_id"}', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:25:17.649, createdBy='system', updatedAt=2021-02-22T23:46:04.159, updatedBy=''}, DetailVO{id=42, url='https://api2.mywhfz.com/pms-api/topic/c-booking/get-booking-detail?booking_id=${booking_id}', path='null', header='{"Access-Token": "${token}","Connection": "keep-alive","App-Identifier": "3f95b1c86e394d92b09f50d13fe39a13","content-type": "application/json; charset=UTF-8","Accept-Encoding": "gzip, deflate, br","X-Requested-With": "XMLHttpRequest","Msg-Id": "mp-66EEC750A6E6FA27"}', method='null', data='null', assertions='null', extract='null', description='null', groupId='1', sort=null, deleteFlag=1, recordDate=1000-01-01, createdAt=2021-02-22T23:27:20.654, createdBy='system', updatedAt=2021-02-22T23:46:09.048, updatedBy=''}]
+{}
+Êñ≠Ë®ÄËßÑÂàô:{"20000":"$.code1","20000te":"$.code1"}
+{code=20000}
+ÊèêÂèñË∑ØÂæÑ‰∏çÂ≠òÂú®:{"booking_id":"data[0].booking_id"}ËøîÂõûÁªìÊûúÔºö{"code":44000,"message":"No Access token found in store"}
+{code=20000}
+{code=20000}
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CaseDetailServiceTest using Java 1.8.0_211 on qiujingping with PID 1084 (started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.038s)
+Current version of schema `cow`: << Empty Schema >>
+Migrating schema `cow` to version "1.0.0.0.0 - 20210207 base v0 0 0 0 target v1 0 0 0 scheme"
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException: 
+Migration V1.0.0.0.0__20210207_base_v0_0_0_0_target_v1_0_0_0_scheme.sql failed
+------------------------------------------------------------------------------
+SQL State  : 42S01
+Error Code : 1050
+Message    : Table 'case_config' already exists
+Location   : db\migration\V1.0.0.0.0__20210207_base_v0_0_0_0_target_v1_0_0_0_scheme.sql (D:\cow\db\migration\V1.0.0.0.0__20210207_base_v0_0_0_0_target_v1_0_0_0_scheme.sql)
+Line       : 20
+Statement  : -- ----------------------------
+-- Table structure for case_config
+-- ----------------------------
+-- DROP TABLE IF EXISTS `case_config`;
+CREATE TABLE `case_config`  (
+  `id` int(11) NOT NULL,
+  `url` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `headers` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
+  `delete_flag` int(11) NOT NULL DEFAULT 1 COMMENT 'Âà†Èô§Ê†áÂøó, 1Êú™Âà†Èô§ 0Â∑≤Âà†Èô§',
+  `record_date` date NOT NULL DEFAULT '1000-01-01' COMMENT 'ÂàõÂª∫Êó•Êúü',
+  `created_at` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) COMMENT 'ÂàõÂª∫Êó∂Èó¥',
+  `created_by` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'system',
+  `updated_at` datetime(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3) COMMENT 'Êõ¥Êñ∞Êó∂Èó¥',
+  `updated_by` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic
+
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 17524 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1617 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13056 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1505 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.026s)
+Creating Schema History table `cow`.`flyway_schema_history` ...
+Current version of schema `cow`: << Empty Schema >>
+Migrating schema `cow` to version "1.0.0.0.0 - 20210207 base v0 0 0 0 target v1 0 0 0 scheme"
+Migrating schema `cow` to version "1.0.0.0.2 - 201229 base v0 0 0 0 target v1 0 0 0 script"
+Successfully applied 2 migrations to schema `cow` (execution time 00:01.764s)
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 6.571 seconds (JVM running for 6.997)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, loginCode=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 1068 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1720 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.034s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.522 seconds (JVM running for 5.08)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=null)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 17872 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 37 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1587 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.058s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.954 seconds (JVM running for 5.375)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=null)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 11676 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1593 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.031s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.416 seconds (JVM running for 4.838)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=null)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=null)
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 10888 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1689 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.036s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 5.079 seconds (JVM running for 7.493)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 2964 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1782 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 5.308 seconds (JVM running for 5.884)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 16696 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1731 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.039s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.697 seconds (JVM running for 5.398)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+LoginQueryIDO(account=admin, password=admin)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 4736 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 51 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1681 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.032s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.864 seconds (JVM running for 5.302)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 20672 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1466 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.032s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.348 seconds (JVM running for 4.783)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 4636 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1893 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.029s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 5.153 seconds (JVM running for 5.651)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 2860 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1726 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.040s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.646 seconds (JVM running for 5.065)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18308 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1718 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.025s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.571 seconds (JVM running for 4.997)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+LoginQueryIDO(account=admin, password=admin)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13112 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 58 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1607 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.027s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.443 seconds (JVM running for 4.884)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+LoginQueryIDO(account=admin, password=admin)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 15548 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1609 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.024s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.464 seconds (JVM running for 4.928)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 12140 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 45 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1595 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.042s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.41 seconds (JVM running for 4.85)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 10548 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1604 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.024s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 4.237 seconds (JVM running for 4.658)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18876 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1736 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.031s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 23.874 seconds (JVM running for 24.291)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+°æµ«¬º–£—È°ø√ª”–token–≈œ¢
+°æµ«¬º–£—È°ø√ª”–token–≈œ¢
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13008 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1681 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.032s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 25.132 seconds (JVM running for 25.539)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 4376 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1815 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.032s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 36.73 seconds (JVM running for 37.154)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=null, password=admin)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 13680 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1930 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.027s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 47.577 seconds (JVM running for 48.041)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 15556 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1728 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.035s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 31.7 seconds (JVM running for 32.173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+LoginQueryIDO(account=admin, password=admin)
+
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
+                                      
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=123456)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=111111)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+LoginQueryIDO(account=admin, password=admin)
+UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
+°æµ«¬º–£—È°ø√ª”–token–≈œ¢
+°æµ«¬º–£—È°ø√ª”–token–≈œ¢
+°æµ«¬º–£—È°øRedis÷–≤È≤ªµΩtoken
+°æµ«¬º–£—È°øRedis÷–≤È≤ªµΩtoken
