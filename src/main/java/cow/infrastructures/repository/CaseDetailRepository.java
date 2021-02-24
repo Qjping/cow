@@ -25,6 +25,7 @@ import static cow.infrastructures.jooq.Tables.CASE_DETAIL;
 @Repository
 public class CaseDetailRepository {
     private final DSLContext create;
+    private final CaseDetail cd = CaseDetail.CASE_DETAIL;
 
 
     public CaseDetailRepository(DSLContext create) {
@@ -54,10 +55,17 @@ public class CaseDetailRepository {
     }
 
 
-    public void addCase(CaseDetailAddVO caseDetailAddVO) {
+    public void saveCase(CaseDetailAddVO caseDetailAddVO) {
         CaseDetailRecord newRecord = create.newRecord(CASE_DETAIL, caseDetailAddVO);
         create.executeInsert(newRecord);
 
+    }
+    public void saveCase(List<CaseDetailAddVO> caseDetailAddVOS) {
+        List<CaseDetailRecord> caseDetailRecords = new ArrayList<>();
+        caseDetailAddVOS.forEach(caseDetailAddVO -> {
+            caseDetailRecords.add(create.newRecord(cd,caseDetailAddVO));
+        });
+        create.batchInsert(caseDetailRecords).execute();
     }
 
 }

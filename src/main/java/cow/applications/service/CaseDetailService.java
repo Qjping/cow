@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONPath;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mysql.cj.util.StringUtils;
-import cow.infrastructures.converter.CaseDetailconverter;
+import cow.infrastructures.converter.CaseConverter;
 
 
 import cow.infrastructures.repository.CaseDetailRepository;
@@ -12,6 +12,7 @@ import cow.infrastructures.repository.CaseResultRepository;
 
 import cow.infrastructures.repository.UserDefineParamRepository;
 import cow.infrastructures.struct.ido.CaseDetailAddIDO;
+import cow.infrastructures.struct.ido.CaseDetailIDO;
 import cow.infrastructures.struct.ido.CaseQueryIDO;
 import cow.infrastructures.struct.ido.PageResultIDO;
 import cow.infrastructures.struct.vo1.*;
@@ -38,7 +39,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class CaseDetailService {
     private final CaseDetailRepository caseDetailRepository;
-    private final CaseDetailconverter caseDetailconverter;
+    private final CaseConverter caseConverter;
     private final OkHttpClient client = new OkHttpClient();
     private final CaseResultRepository caseResultRepository;
     private final UserDefineParamRepository userDefineParamRepository;
@@ -48,33 +49,39 @@ public class CaseDetailService {
     public static final MediaType JSON
             = MediaType.get("application/json; charset=utf-8");
 
-    public CaseDetailService(CaseDetailRepository caseDetailRepository, CaseDetailconverter caseDetailconverter, CaseResultRepository caseResultRepository, UserDefineParamRepository userDefineParamRepository, JsonUtil jsonUtil) {
+    public CaseDetailService(CaseDetailRepository caseDetailRepository, CaseConverter caseConverter, CaseResultRepository caseResultRepository, UserDefineParamRepository userDefineParamRepository, JsonUtil jsonUtil) {
         this.caseDetailRepository = caseDetailRepository;
-        this.caseDetailconverter = caseDetailconverter;
+        this.caseConverter = caseConverter;
         this.caseResultRepository = caseResultRepository;
         this.userDefineParamRepository = userDefineParamRepository;
         this.jsonUtil = jsonUtil;
     }
 
-    public PageResultIDO<CaseQueryIDO> searchCaseDetailList(CaseQueryIDO caseQueryIDO) {
-        CaseQueryVO caseQueryVO = caseDetailconverter.caseQueryIdoTovo(caseQueryIDO);
+    public PageResultIDO<CaseDetailIDO> searchCaseDetailList(CaseQueryIDO caseQueryIDO) {
+        CaseQueryVO caseQueryVO = caseConverter.caseQueryIdoToVo(caseQueryIDO);
         PageResultVO<CaseDetailVO> pageResultVO = caseDetailRepository.getCaseDetailListByCondition(caseQueryVO);
         List<CaseDetailVO> caseDetailVOS = pageResultVO.getList();
 
-        return new PageResultIDO(caseDetailVOS, pageResultVO.getCount());
+        return new PageResultIDO(caseConverter.caseDetailVoListToIDO(caseDetailVOS), pageResultVO.getCount());
 
     }
 
 
     @Transactional
     public void addCase(CaseDetailAddIDO caseQueryIDO) {
-        CaseDetailAddVO caseDetailAddVO = caseDetailconverter.caseDetailidoTovo(caseQueryIDO);
-        caseDetailRepository.addCase(caseDetailAddVO);
+        CaseDetailAddVO caseDetailAddVO = caseConverter.caseDetailIdoToVo(caseQueryIDO);
+        caseDetailRepository.saveCase(caseDetailAddVO);
     }
 
-@Async
+    @Transactional
+    public void addCase(List<CaseDetailAddIDO> caseDetailAddIDOList) {
+        List<CaseDetailAddVO> caseDetailAddVOList = caseConverter.caseDetailIdoListToVoList(caseDetailAddIDOList);
+        caseDetailRepository.saveCase(caseDetailAddVOList);
+    }
+
+     @Async
     public void execute(CaseQueryIDO caseQueryIDO) {
-        CaseQueryVO caseQueryVO = caseDetailconverter.caseQueryIdoTovo(caseQueryIDO);
+        CaseQueryVO caseQueryVO = caseConverter.caseQueryIdoToVo(caseQueryIDO);
         PageResultVO<CaseDetailVO> pageResultVO = caseDetailRepository.getCaseDetailListByCondition(caseQueryVO);
         List<CaseDetailVO> caseDetailVOS = pageResultVO.getList();
         List<CaseResultVO> caseResultList = new ArrayList<CaseResultVO>();

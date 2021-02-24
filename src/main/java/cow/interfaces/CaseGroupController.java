@@ -1,26 +1,21 @@
 package cow.interfaces;
 
-import cow.infrastructures.enumeration.ExceptionCodeEnum;
-import cow.infrastructures.jooq.tables.CaseDetail;
-import cow.infrastructures.struct.ido.ApiResultIDO;
-import cow.infrastructures.struct.ido.CaseQueryIDO;
+import cow.applications.service.CaseGroupService;
+import cow.infrastructures.struct.ido.*;
 
-import cow.infrastructures.struct.ido.PageResultIDO;
-import cow.infrastructures.struct.vo1.CaseDetailVO;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import javax.validation.Valid;
-
-
-
 @RestController
-@RequestMapping("/case")
-public class CaseController {
+@RequestMapping("/case-group")
+public class CaseGroupController {
+    private final CaseGroupService caseGroupService;
+
+    public CaseGroupController(CaseGroupService caseGroupService) {
+        this.caseGroupService = caseGroupService;
+    }
 
 //    private final WarehouseGoodsSkuContext warehouseGoodsSkuContext;
 //
@@ -40,5 +35,10 @@ public class CaseController {
 //        PageResultIDO<CaseDetailVO> pageResultIDO = warehouseGoodsSkuContext.search(queryIDO.getWarehouseId(), queryIDO);
 //        return ApiResultIDO.success(pageResultIDO);
 //    }
+
+    @GetMapping("search")
+    public ApiResultIDO<PageResultIDO<CaseGroupIDO>> search(CaseGroupQueryIDO caseQueryIDO){
+        return ApiResultIDO.success(caseGroupService.search(caseQueryIDO));
+    }
 
 }

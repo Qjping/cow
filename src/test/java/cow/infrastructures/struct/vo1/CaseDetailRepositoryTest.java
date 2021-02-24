@@ -35,6 +35,6 @@ public class CaseDetailRepositoryTest  {
         caseDetailAddVO.setSort(2);
         List<CaseDetailAddVO> caseDetailAddVOList = new ArrayList<CaseDetailAddVO>();
 
-        caseDetailRepository.addCase(caseDetailAddVO);
+        caseDetailRepository.saveCase(caseDetailAddVO);
     }
 }

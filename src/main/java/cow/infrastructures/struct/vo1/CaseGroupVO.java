@@ -8,8 +8,8 @@ import java.sql.*;
  * table name: case_group
  * author name: qiujingping
  * create time: 2021-02-07 15:10:31
- */ 
-public class GroupVO {
+ */
+public class CaseGroupVO {
 
     private String id;
     private String description;
@@ -86,15 +86,15 @@ public class GroupVO {
 
     @Override
     public String toString() {
-        return "GroupVO{" + 
-            "id='" + id + '\'' + 
-            ", description='" + description + '\'' + 
-            ", deleteFlag=" + deleteFlag + 
-            ", recordDate=" + recordDate + 
-            ", createdAt=" + createdAt + 
-            ", createdBy='" + createdBy + '\'' + 
-            ", updatedAt=" + updatedAt + 
-            ", updatedBy='" + updatedBy + '\'' + 
+        return "CaseGroupVO{" +
+            "id='" + id + '\'' +
+            ", description='" + description + '\'' +
+            ", deleteFlag=" + deleteFlag +
+            ", recordDate=" + recordDate +
+            ", createdAt=" + createdAt +
+            ", createdBy='" + createdBy + '\'' +
+            ", updatedAt=" + updatedAt +
+            ", updatedBy='" + updatedBy + '\'' +
             "}";
     }
 }
