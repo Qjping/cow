@@ -12,12 +12,6 @@ import java.io.IOException;
 public class CowApplication {
 
     public static void main(String[] args) throws IOException {
-//         OkHttpClient client = new OkHttpClient();
-//        Request.Builder builder = new Request.Builder();
-//        Request request = null;
-//
-//        Response execute = client.newCall(builder.url("https://www.baidu.com").get().build()) .execute();
-//        System.out.println(execute.body().string());
         try {
             SpringApplication.run(CowApplication.class, args);
         }catch (Exception e){

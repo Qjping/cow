@@ -1,7 +1,83 @@
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 28348 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 47 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4667 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSocketService': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Stopping service [Tomcat]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 17880 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1630 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.345s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+Shutting down ExecutorService 'applicationTaskExecutor'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Pausing ProtocolHandler ["http-nio-8080"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8080"]
+Destroying ProtocolHandler ["http-nio-8080"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 31548 (D:\cow\target\classes started by qiujingping in D:\cow)
+No active profile set, falling back to default profiles: default
+For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.41]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2000 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Initializing ExecutorService 'applicationTaskExecutor'
+Flyway Community Edition 7.1.1 by Redgate
+Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
+Successfully validated 2 migrations (execution time 00:00.040s)
+Current version of schema `cow`: 1.0.0.0.2
+Schema `cow` is up to date. No migration necessary.
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started CowApplication in 5.274 seconds (JVM running for 5.929)
 Initializing Spring DispatcherServlet 'dispatcherServlet'
 Initializing Servlet 'dispatcherServlet'
-Completed initialization in 15 ms
-LoginQueryIDO(account=admin, password=admin)
+Completed initialization in 11 ms
+LoginQueryIDO(account=admin, password=111111)
 
                                       
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -27,67 +103,32 @@ LoginQueryIDO(account=admin, password=111111)
 UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
 LoginQueryIDO(account=admin, password=admin)
 UserAccountVO{id='1', userId='1', account='admin', password='admin', createdAt=2021-02-23T19:20:24.726, updatedAt=2021-02-23T19:20:24.726, recordDate=1000-01-01, createdBy='null', salt='null', status=true}
-Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 16196 (D:\cow\target\classes started by qiujingping in D:\cow)
-No active profile set, falling back to default profiles: default
-For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cow.CowApplication]; nested exception is java.io.FileNotFoundException: class path resource [cow/infrastructures/converter/CaseDetailconverter.class] cannot be opened because it does not exist
-Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 20528 (D:\cow\target\classes started by qiujingping in D:\cow)
-No active profile set, falling back to default profiles: default
-For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [cow.CowApplication]; nested exception is java.io.FileNotFoundException: class path resource [cow/infrastructures/converter/CaseDetailconverter.class] cannot be opened because it does not exist
-Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 15940 (D:\cow\target\classes started by qiujingping in D:\cow)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 28516 (D:\cow\target\classes started by qiujingping in D:\cow)
 No active profile set, falling back to default profiles: default
 For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+Finished Spring Data repository scanning in 47 ms. Found 0 Redis repository interfaces.
 Tomcat initialized with port(s): 8080 (http)
 Initializing ProtocolHandler ["http-nio-8080"]
 Starting service [Tomcat]
 Starting Servlet engine: [Apache Tomcat/9.0.41]
 Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 2318 ms
+Root WebApplicationContext: initialization completed in 1818 ms
 HikariPool-1 - Starting...
 HikariPool-1 - Start completed.
 Initializing ExecutorService 'applicationTaskExecutor'
 Flyway Community Edition 7.1.1 by Redgate
 Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
-Successfully validated 2 migrations (execution time 00:00.183s)
+Successfully validated 2 migrations (execution time 00:00.057s)
 Current version of schema `cow`: 1.0.0.0.2
 Schema `cow` is up to date. No migration necessary.
 Starting ProtocolHandler ["http-nio-8080"]
 Tomcat started on port(s): 8080 (http) with context path ''
-Started CowApplication in 47.453 seconds (JVM running for 48.453)
+Started CowApplication in 4.659 seconds (JVM running for 5.154)
 Initializing Spring DispatcherServlet 'dispatcherServlet'
 Initializing Servlet 'dispatcherServlet'
-Completed initialization in 1 ms
-【登录校验】没有token信息
-Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 18844 (D:\cow\target\classes started by qiujingping in D:\cow)
-No active profile set, falling back to default profiles: default
-For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
-Tomcat initialized with port(s): 8080 (http)
-Initializing ProtocolHandler ["http-nio-8080"]
-Starting service [Tomcat]
-Starting Servlet engine: [Apache Tomcat/9.0.41]
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1719 ms
-HikariPool-1 - Starting...
-HikariPool-1 - Start completed.
-Initializing ExecutorService 'applicationTaskExecutor'
-Flyway Community Edition 7.1.1 by Redgate
-Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
-Successfully validated 2 migrations (execution time 00:00.033s)
-Current version of schema `cow`: 1.0.0.0.2
-Schema `cow` is up to date. No migration necessary.
-Starting ProtocolHandler ["http-nio-8080"]
-Tomcat started on port(s): 8080 (http) with context path ''
-Started CowApplication in 4.386 seconds (JVM running for 4.811)
-Initializing Spring DispatcherServlet 'dispatcherServlet'
-Initializing Servlet 'dispatcherServlet'
-Completed initialization in 1 ms
+Completed initialization in 2 ms
 
                                       
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -108,78 +149,32 @@ Completed initialization in 1 ms
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
                                       
-Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 23044 (D:\cow\target\classes started by qiujingping in D:\cow)
+Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 42544 (D:\cow\target\classes started by qiujingping in D:\cow)
 No active profile set, falling back to default profiles: default
 For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
 Tomcat initialized with port(s): 8080 (http)
 Initializing ProtocolHandler ["http-nio-8080"]
 Starting service [Tomcat]
 Starting Servlet engine: [Apache Tomcat/9.0.41]
 Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1900 ms
+Root WebApplicationContext: initialization completed in 1814 ms
 HikariPool-1 - Starting...
 HikariPool-1 - Start completed.
 Initializing ExecutorService 'applicationTaskExecutor'
 Flyway Community Edition 7.1.1 by Redgate
 Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
-Successfully validated 2 migrations (execution time 00:00.044s)
+Successfully validated 2 migrations (execution time 00:00.023s)
 Current version of schema `cow`: 1.0.0.0.2
 Schema `cow` is up to date. No migration necessary.
 Starting ProtocolHandler ["http-nio-8080"]
 Tomcat started on port(s): 8080 (http) with context path ''
-Started CowApplication in 4.758 seconds (JVM running for 5.325)
+Started CowApplication in 4.552 seconds (JVM running for 5.006)
 Initializing Spring DispatcherServlet 'dispatcherServlet'
 Initializing Servlet 'dispatcherServlet'
-Completed initialization in 1 ms
-
-                                      
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
-@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
-@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
-@@@@@@@@@@        @@        @@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@        @@        @@@@@@@@@@
-@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
-@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
-@@@@@@@@@@        @@  @  @  @@@@@@@@@@
-@@@@@@@@@@        @@        @@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.14.4
-                                      
-Starting CowApplication using Java 1.8.0_211 on qiujingping with PID 20888 (D:\cow\target\classes started by qiujingping in D:\cow)
-No active profile set, falling back to default profiles: default
-For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
-Tomcat initialized with port(s): 8080 (http)
-Initializing ProtocolHandler ["http-nio-8080"]
-Starting service [Tomcat]
-Starting Servlet engine: [Apache Tomcat/9.0.41]
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1653 ms
-HikariPool-1 - Starting...
-HikariPool-1 - Start completed.
-Initializing ExecutorService 'applicationTaskExecutor'
-Flyway Community Edition 7.1.1 by Redgate
-Database: jdbc:mysql://127.0.0.1/cow (MySQL 5.7)
-Successfully validated 2 migrations (execution time 00:00.027s)
-Current version of schema `cow`: 1.0.0.0.2
-Schema `cow` is up to date. No migration necessary.
-Starting ProtocolHandler ["http-nio-8080"]
-Tomcat started on port(s): 8080 (http) with context path ''
-Started CowApplication in 4.533 seconds (JVM running for 4.993)
-Initializing Spring DispatcherServlet 'dispatcherServlet'
-Initializing Servlet 'dispatcherServlet'
-Completed initialization in 1 ms
+Completed initialization in 4 ms
 
                                       
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

@@ -1,9 +1,11 @@
 package cow.interfaces;
 
+import cow.applications.service.CaseDetailService;
 import cow.applications.service.CaseGroupService;
 import cow.infrastructures.struct.ido.*;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,9 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/case-group")
 public class CaseGroupController {
     private final CaseGroupService caseGroupService;
+    private final CaseDetailService caseDetailService;
 
-    public CaseGroupController(CaseGroupService caseGroupService) {
+    public CaseGroupController(CaseGroupService caseGroupService, CaseDetailService caseDetailService) {
         this.caseGroupService = caseGroupService;
+        this.caseDetailService = caseDetailService;
     }
 
 //    private final WarehouseGoodsSkuContext warehouseGoodsSkuContext;
@@ -39,6 +43,11 @@ public class CaseGroupController {
     @GetMapping("search")
     public ApiResultIDO<PageResultIDO<CaseGroupIDO>> search(CaseGroupQueryIDO caseQueryIDO){
         return ApiResultIDO.success(caseGroupService.search(caseQueryIDO));
+    }
+    @PostMapping("execute")
+    public ApiResultIDO<PageResultIDO<Void>> execute(CaseQueryIDO caseQueryIDO){
+        caseDetailService.execute(caseQueryIDO);
+        return ApiResultIDO.success();
     }
 
 }
