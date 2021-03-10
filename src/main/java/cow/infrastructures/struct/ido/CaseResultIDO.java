@@ -1,19 +1,14 @@
-package cow.infrastructures.struct.vo1;
+package cow.infrastructures.struct.ido;
 
 import lombok.Data;
 
-import java.time.LocalDateTime;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
-/**
- * table name: case_result
- * author name: qiujingping
- * create time: 2021-02-07 15:10:31
- */
 @Data
-public class CaseResultVO {
+public class CaseResultIDO {
 
     private String id;
     private Integer caseGroupId;
@@ -24,7 +19,7 @@ public class CaseResultVO {
     private String method;
     private String data;
     private String  responseResult;
-    private List<Map<Boolean,String>> assertResult;
+    private List<Map<Boolean,String> > assertResult;
     private List<Map<Boolean,String>> extractResult;
     private String userDefineParameters;
     private String deleteFlag;
@@ -33,6 +28,5 @@ public class CaseResultVO {
     private String createdBy;
     private LocalDateTime updatedAt;
     private String updatedBy;
-    private Integer HttpStatusCode;
+    private Integer httpStatusCode;
 }
-

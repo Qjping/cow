@@ -4,9 +4,11 @@ import cow.infrastructures.jooq.tables.CaseDetail;
 import cow.infrastructures.struct.ido.CaseDetailAddIDO;
 import cow.infrastructures.struct.ido.CaseDetailIDO;
 import cow.infrastructures.struct.ido.CaseQueryIDO;
+import cow.infrastructures.struct.ido.CaseResultIDO;
 import cow.infrastructures.struct.vo1.CaseDetailAddVO;
 import cow.infrastructures.struct.vo1.CaseDetailVO;
 import cow.infrastructures.struct.vo1.CaseQueryVO;
+import cow.infrastructures.struct.vo1.CaseResultVO;
 import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 
@@ -22,4 +24,6 @@ public interface CaseConverter {
     List<CaseDetailAddVO> caseDetailIdoListToVoList( List<CaseDetailAddIDO> caseDetailAddIDO);
 
     List<CaseDetailIDO> caseDetailVoListToIDO(List<CaseDetailVO> caseDetailVOList);
+
+    List<CaseResultIDO> caseResultVoToIDO(List<CaseResultVO> caseResultVOS);
 }

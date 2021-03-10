@@ -17,6 +17,6 @@ public class UserController {
     @GetMapping("/get-user-info")
     public ApiResultIDO<LoginUserIDO> getUserInfo(@LoginUser @ApiIgnore UserToken userToken,
                                                   @RequestParam(value = "user_id", required = false) String userId){
-   return null;
+        return null;
     }
 }

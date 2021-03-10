@@ -9,9 +9,7 @@ import lombok.Data;
 import javax.validation.constraints.NotEmpty;
 
 /**
- * @author napuping
- * @date 2020-11-03 下午7:29
- * @description
+ *
  */
 @Data
 public class LoginQueryIDO {

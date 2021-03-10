@@ -2,7 +2,6 @@ package cow.interfaces;
 
 import cow.applications.service.CaseDetailService;
 import cow.infrastructures.struct.ido.*;
-import cow.infrastructures.struct.vo1.CaseDetailVO;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,11 +30,10 @@ public class CaseDetailController {
         return ApiResultIDO.success();
     }
 
-
     @GetMapping("execute")
-    public ApiResultIDO<PageResultIDO<Void>> execute(CaseQueryIDO caseQueryIDO){
-        caseDetailService.execute(caseQueryIDO);
-        return ApiResultIDO.success();
+    public ApiResultIDO<CaseReportIDO> execute(CaseQueryIDO caseQueryIDO){
+
+        return ApiResultIDO.success(caseDetailService.execute(caseQueryIDO));
     }
 
 
