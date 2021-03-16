@@ -60,6 +60,7 @@ public class CaseDetailRepository {
         create.executeInsert(newRecord);
 
     }
+
     public void saveCase(List<CaseDetailAddVO> caseDetailAddVOS) {
         List<CaseDetailRecord> caseDetailRecords = new ArrayList<>();
         caseDetailAddVOS.forEach(caseDetailAddVO -> {

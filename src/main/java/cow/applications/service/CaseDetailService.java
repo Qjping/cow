@@ -1,10 +1,12 @@
 package cow.applications.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import cow.infrastructures.converter.CaseConverter;
 
 
+import cow.infrastructures.converter.CaseResultConverter;
 import cow.infrastructures.factory.CaseModelFactory;
+import cow.infrastructures.jooq.tables.CaseResult;
+import cow.infrastructures.model.CaseModel;
 import cow.infrastructures.repository.CaseDetailRepository;
 import cow.infrastructures.repository.CaseResultRepository;
 
@@ -15,12 +17,10 @@ import cow.infrastructures.struct.vo1.*;
 
 import lombok.extern.slf4j.Slf4j;
 
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import java.io.IOException;
 import java.util.*;
 
 @Service
@@ -29,18 +29,22 @@ public class CaseDetailService {
     private final CaseDetailRepository caseDetailRepository;
     private final CaseConverter caseConverter;
     private final CaseResultRepository caseResultRepository;
+    private  final CaseResultConverter caseResultConverter;
 
 
     private final UserDefineParamRepository userDefineParamRepository;
 
     private final CaseModelFactory caseModelFactory;
+    private final WebSocket webSocket;
 
-    public CaseDetailService(CaseDetailRepository caseDetailRepository, CaseConverter caseConverter, CaseResultRepository caseResultRepository, UserDefineParamRepository userDefineParamRepository, CaseModelFactory caseModelFactory) {
+    public CaseDetailService(CaseDetailRepository caseDetailRepository, CaseConverter caseConverter, CaseResultRepository caseResultRepository, CaseResultConverter caseResultConverter, UserDefineParamRepository userDefineParamRepository, CaseModelFactory caseModelFactory, WebSocket webSocket) {
         this.caseDetailRepository = caseDetailRepository;
         this.caseConverter = caseConverter;
         this.caseResultRepository = caseResultRepository;
+        this.caseResultConverter = caseResultConverter;
         this.userDefineParamRepository = userDefineParamRepository;
         this.caseModelFactory = caseModelFactory;
+        this.webSocket = webSocket;
     }
 
 
@@ -77,10 +81,10 @@ public class CaseDetailService {
         log.info("caseDetailVOS:"+caseDetailVOS.toString());
         int passCount = 0;
         int failCount = 0;
-
+        CaseModel caseModel = caseModelFactory.create()
+                .initUserDefineParamMap(caseQueryVO);
         for(CaseDetailVO caseDetailVO:caseDetailVOS){
-                CaseResultVO caseResultVO =   caseModelFactory.create()
-                        .setUserDefineParamMap(caseQueryVO)
+                CaseResultVO caseResultVO =   caseModel
                         .doHttpRequest(caseDetailVO)
                         .doAssert()
                         .doExtraction()
@@ -88,18 +92,21 @@ public class CaseDetailService {
                 if(caseResultVO.getHttpStatusCode()!=200) {
                     passCount++;
                 }
-                log.info("执行结果:"+caseResultVO.toString());
+                List<CaseResultVO> caseResultVOLisr =new ArrayList<>();
+                caseResultVOLisr.add(caseResultVO);
+                webSocket.sendMessage(caseResultConverter.caseResultVoToIDO(caseResultVOLisr));
+
                 caseResultList.add(caseResultVO);
 
         }
-        log.info("执行结果:"+caseResultList.toString());
 
          caseResultRepository.save(caseResultList);
          userDefineParamRepository.save(ruleUserDefineParamVOS);
          CaseReportIDO caseReportIDO = new CaseReportIDO();
-         caseReportIDO.setCaseResultIDOList(caseConverter.caseResultVoToIDO(caseResultList));
+         caseReportIDO.setCaseResultIDOList(caseResultConverter.caseResultVoToIDO(caseResultList));
          caseReportIDO.setPassCount(passCount);
          caseReportIDO.setFailCount(failCount);
+         //TODO 后期集成邮件，微信通知
          return caseReportIDO;
      }
     }
@@ -111,6 +118,8 @@ public class CaseDetailService {
 //        String url = replaceParameters(caseDetailVO.getUrl());
 //        String data = replaceParameters(caseDetailVO.getData());
 //        if (StringUtils.isNullOrEmpty(header)) {
+
+
 //             request = builder.url(caseDetailVO.getUrl()).get().build();
 //        }
 //        JSONObject headers = new JSONObject(header);

@@ -1,5 +1,8 @@
 package cow.infrastructures.struct.vo1;
 
+import cow.infrastructures.struct.dto.AssertResultDTO;
+import cow.infrastructures.struct.dto.ExtractResultDTO;
+import cow.infrastructures.struct.ido.AssertResultIDO;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -24,8 +27,8 @@ public class CaseResultVO {
     private String method;
     private String data;
     private String  responseResult;
-    private List<Map<Boolean,String>> assertResult;
-    private List<Map<Boolean,String>> extractResult;
+    private List<AssertResultDTO> assertResult;
+    private List<ExtractResultDTO> extractResult;
     private String userDefineParameters;
     private String deleteFlag;
     private LocalDate recordDate;

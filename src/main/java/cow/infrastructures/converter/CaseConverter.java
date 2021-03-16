@@ -10,6 +10,8 @@ import cow.infrastructures.struct.vo1.CaseDetailVO;
 import cow.infrastructures.struct.vo1.CaseQueryVO;
 import cow.infrastructures.struct.vo1.CaseResultVO;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.Mappings;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -25,5 +27,5 @@ public interface CaseConverter {
 
     List<CaseDetailIDO> caseDetailVoListToIDO(List<CaseDetailVO> caseDetailVOList);
 
-    List<CaseResultIDO> caseResultVoToIDO(List<CaseResultVO> caseResultVOS);
+
 }

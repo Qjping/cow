@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONPath;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mysql.cj.util.StringUtils;
+import cow.config.CaseConfig;
 import cow.infrastructures.converter.CaseConverter;
 import cow.infrastructures.jooq.tables.CaseResult;
 import cow.infrastructures.repository.CaseDetailRepository;
@@ -33,14 +34,15 @@ import java.util.stream.Collectors;
 
 @Component
 @Slf4j
-@Scope("prototype")
+@Scope("request")
 public class CaseModel {
-    private final CaseDetailRepository caseDetailRepository;
-    private final CaseConverter caseConverter;
+
     private final OkHttpClient client = new OkHttpClient();
-    private final CaseResultRepository caseResultRepository;
+
     private final UserDefineParamRepository userDefineParamRepository;
     private Map<String, String> userDefineParamMap = new HashMap();
+
+    private CaseConfig caseConfig;
 
     private static final MediaType JSON
             = MediaType.get("application/json; charset=utf-8");
@@ -49,9 +51,7 @@ public class CaseModel {
     private CaseDetailVO caseDetailVO;
 
     public CaseModel(CaseDetailRepository caseDetailRepository, CaseConverter caseConverter, CaseResultRepository caseResultRepository, UserDefineParamRepository userDefineParamRepository, JsonUtil jsonUtil) {
-        this.caseDetailRepository = caseDetailRepository;
-        this.caseConverter = caseConverter;
-        this.caseResultRepository = caseResultRepository;
+
         this.userDefineParamRepository = userDefineParamRepository;
     }
 
@@ -97,6 +97,7 @@ public class CaseModel {
             log.info(responseResult.toString());
             url = response.request().url().toString();
             log.info(response.request().url().toString());
+            CaseResultVO caseResultVO = new CaseResultVO();
 
             caseResultVO.setUrl(url);
             caseResultVO.setResponseResult(responseResult);
@@ -109,6 +110,7 @@ public class CaseModel {
             if ( response.request().body() !=null) {
                 caseResultVO.setData(response.request().body().toString());
             }
+            this.caseResultVO = caseResultVO;
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -139,11 +141,11 @@ public class CaseModel {
 
     public CaseModel doExtraction() throws BusinessException {
         String result =caseResultVO.getResponseResult();
-
         if(StringUtils.isNullOrEmpty( result)
                 ||StringUtils.isNullOrEmpty(caseDetailVO.getExtract())
                 ||caseResultVO.getHttpStatusCode()!=200
         ) {
+
             //todo 处理返回结果为空
             return this;
         }
@@ -177,6 +179,7 @@ public class CaseModel {
     public  CaseModel doAssert()  {
 //        JSONObject expecteds= jsonUtil.toEntity(caseDetailVO.getAssertions(),JSONObject.class);
         String resultResponce = caseResultVO.getResponseResult();
+
        if(caseResultVO.getHttpStatusCode()!=200
         ||StringUtils.isNullOrEmpty( resultResponce)
                ||StringUtils.isNullOrEmpty(caseDetailVO.getAssertions())) {
@@ -211,7 +214,7 @@ public class CaseModel {
         return this;
     }
 
-    public CaseModel setUserDefineParamMap(CaseQueryVO caseQueryVO){
+    public CaseModel initUserDefineParamMap(CaseQueryVO caseQueryVO){
         //查询自定义变量
         List<UserDefineParamVO> userDefineParams = userDefineParamRepository.seach(caseQueryVO);
         userDefineParamMap = userDefineParams.stream().collect(
@@ -219,7 +222,6 @@ public class CaseModel {
         );
         return this;
     }
-
     public CaseResultVO getCaseResultVO(){
         return this.caseResultVO;
     }
