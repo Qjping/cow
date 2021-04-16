@@ -53,6 +53,13 @@ public class CaseDetailRepository {
                 .collect(Collectors.toList()),
                 create.selectCount().from(CASE_DETAIL).where(condition).fetchOne().value1());
     }
+    public CaseDetailVO getCaseDetailByCaseId(Integer caseId) {
+
+
+        return create.selectFrom(CASE_DETAIL)
+                .where(CASE_DETAIL.ID.eq(caseId))
+                .fetchOneInto(CaseDetailVO.class);
+    }
 
 
     public void saveCase(CaseDetailAddVO caseDetailAddVO) {

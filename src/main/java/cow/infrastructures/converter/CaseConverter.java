@@ -23,6 +23,8 @@ public interface CaseConverter {
 
     CaseDetailAddVO caseDetailIdoToVo(CaseDetailAddIDO caseDetailAddIDO);
 
+    CaseDetailIDO caseDetailVoToIdo(CaseDetailVO caseDetailVO);
+
     List<CaseDetailAddVO> caseDetailIdoListToVoList( List<CaseDetailAddIDO> caseDetailAddIDO);
 
     List<CaseDetailIDO> caseDetailVoListToIDO(List<CaseDetailVO> caseDetailVOList);

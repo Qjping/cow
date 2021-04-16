@@ -56,6 +56,12 @@ public class CaseDetailService {
         return new PageResultIDO(caseConverter.caseDetailVoListToIDO(caseDetailVOS), pageResultVO.getCount());
 
     }
+    public CaseDetailIDO searchCaseDetail(Integer caseId) {
+         CaseDetailVO caseDetailVO =caseDetailRepository.getCaseDetailByCaseId(caseId);
+
+        return caseConverter.caseDetailVoToIdo(caseDetailVO);
+
+    }
 
 
     @Transactional
@@ -74,6 +80,7 @@ public class CaseDetailService {
     public CaseReportIDO execute(CaseQueryIDO caseQueryIDO) {
         CaseQueryVO caseQueryVO = caseConverter.caseQueryIdoToVo(caseQueryIDO);
         PageResultVO<CaseDetailVO> pageResultVO = caseDetailRepository.getCaseDetailListByCondition(caseQueryVO);
+
         List<CaseDetailVO> caseDetailVOS = pageResultVO.getList();
         List<CaseResultVO> caseResultList = new ArrayList<CaseResultVO>();
         //后期通过用户规则提取的变量
@@ -81,6 +88,7 @@ public class CaseDetailService {
         log.info("caseDetailVOS:"+caseDetailVOS.toString());
         int passCount = 0;
         int failCount = 0;
+        //初始化用户变量
         CaseModel caseModel = caseModelFactory.create()
                 .initUserDefineParamMap(caseQueryVO);
         for(CaseDetailVO caseDetailVO:caseDetailVOS){
@@ -91,11 +99,12 @@ public class CaseDetailService {
                         .getCaseResultVO();
                 if(caseResultVO.getHttpStatusCode()!=200) {
                     passCount++;
+                }else {
+                    failCount++;
                 }
                 List<CaseResultVO> caseResultVOLisr =new ArrayList<>();
                 caseResultVOLisr.add(caseResultVO);
                 webSocket.sendMessage(caseResultConverter.caseResultVoToIDO(caseResultVOLisr));
-
                 caseResultList.add(caseResultVO);
 
         }

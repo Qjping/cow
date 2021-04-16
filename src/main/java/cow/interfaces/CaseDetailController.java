@@ -20,8 +20,12 @@ public class CaseDetailController {
     }
 
     @GetMapping("search")
-    public ApiResultIDO<PageResultIDO<CaseDetailIDO>> search(CaseQueryIDO caseQueryIDO){
+    public ApiResultIDO<PageResultIDO<CaseDetailIDO>> searchList(CaseQueryIDO caseQueryIDO){
         return ApiResultIDO.success(caseDetailService.searchCaseDetailList(caseQueryIDO));
+    }
+    @GetMapping("detail")
+    public ApiResultIDO<CaseDetailIDO> searchDetail( @RequestParam(value = "id", required = false) Integer id){
+        return ApiResultIDO.success(caseDetailService.searchCaseDetail(id));
     }
 
     @PostMapping("add")
