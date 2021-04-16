@@ -82,7 +82,7 @@ public class CaseModel {
         }
         RequestBody body=null;
         if(!StringUtils.isNullOrEmpty(data)){
-            body = RequestBody.create(data, JSON);
+            body = (RequestBody) RequestBody.create(JSON, data);
         }
         switch (caseDetailVO.getMethod()) {
             case "POST": request = builder.url(url).post(body).build();break;

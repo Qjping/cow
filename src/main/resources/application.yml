@@ -4,7 +4,7 @@ spring:
         url: jdbc:mysql://127.0.0.1/cow?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
-        password: 123456
+        password: 123
 
     redis:
       host: 127.0.0.1
